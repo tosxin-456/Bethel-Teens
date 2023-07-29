@@ -118,9 +118,6 @@ width: fit-content;
   border-radius: 5px;
   outline: none;
 }
-.message::placeholder{
- 
-}
 .contactDetails input{
   padding: 10px;
   margin-top: 5%;
@@ -277,6 +274,9 @@ button:hover{
   }
   .navbar p{
     display: none;
+  }
+  .iframeBackground{
+    width: 100%;
   }
   .logoWithWriteUp{
     width: fit-content;

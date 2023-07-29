@@ -40,7 +40,7 @@ const Home = () => {
           </div>
           <div>
             <p className='header'>Meeting time</p>
-            <p className='detailS'>7:15 Am to 8:30</p>
+            <p className='detailS'>7:15-8:30 AM</p>
           </div>
           <div>
             <p className='header'>Telephone</p> 
