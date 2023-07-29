@@ -52,12 +52,12 @@ const Home = () => {
   </div>
    <form action="submit">
     <div className='contactDetails'>
-    <input type="text" placeholder='Your Full Name' />
-    <input type="text" placeholder='Your Phone Number' />
+    <input type="text" placeholder='Your email adress' />
+    <input type="text" placeholder='Your Phone Number' className='number' />
     </div>
     <input type="text" className='message' placeholder='Enter Your Message Here...' />
+   <button type='submit'>Send message</button>
    </form>
-   <button>Send message</button>
    <footer>
     <div className='footerNav'>
     <img src="https://res.cloudinary.com/dba1aezsn/image/upload/v1690495972/chapel_logo_cph2jz.png" alt="" />
