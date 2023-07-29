@@ -1,14 +1,30 @@
 import churchLogo from '../../assets/fa-solid_church.svg'
 import kidsImage from '../../assets/image.png'
+import secondImge from '../../assets/image2.png'
 import '../../App.css'
 import facebook from '../../assets/Facebook.png'
 import instagram from '../../assets/Linkedin.png'
 import aboutUsImg from '../../assets/about us image.png'
+import React, { useState, useEffect } from 'react'
 
 const Home = () => {
+  const images = [
+    {kidsImage},
+    {secondImge}
+  ];
+  const [currentImage, setCurrentImage] = useState(0)
+  useEffect(()=>{
+    const changeImage = ()=>{
+      setCurrentImage((imagesIndex)=>{
+      return  imagesIndex=== images.length-1? 0:imagesIndex+1
+      })
+    }
+    const interval = setInterval(changeImage,10000)
+    return()=>clearInterval(interval)
+  },[images])
   return (
     <>
-      <img src={kidsImage} className='kidImage' alt="" />
+      <img src={kidsImage} loading='lazy' className='kidImage' alt="" />
   <div className='welcomeRemark'>
     <h1>
       Bethel <br /> Teens Club
@@ -21,7 +37,7 @@ const Home = () => {
   <div className='aboutUsHeaderAndText'>
   <h2>A bit about us</h2>
   <div className='aboutUsTextAndImage'>
-  <img src={aboutUsImg} alt="" />
+  <img src={aboutUsImg} alt="" loading='lazy' />
   <div>
   <p>Our church is designed with teenagers in mind! We aim to create a space where you feel heard, understood, and valued.</p> 
   <p>Our teachings are relevant, relatable, and designed to address the real-life challenges and questions that teenagers face in today's world.</p>
