@@ -245,6 +245,9 @@ button:hover{
 }
 
  @media screen and (max-width:800px) {
+  .kidImage{
+    width: 45%;
+  }
   .aboutUsTextAndImage{
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -272,5 +275,8 @@ button:hover{
   }
   .logoWithWriteUp{
     width: fit-content;
+  }
+  .home{
+    margin: 3px;
   }
  }
