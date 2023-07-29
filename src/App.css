@@ -1,0 +1,276 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@500&family=Roboto:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+body{
+ width: 99vw; 
+}
+.navbar{
+  background-color: white;
+  z-index: 1;
+  display: flex;
+  padding: 5px;
+  width: 100%; 
+}
+.navbar img{
+  width: 45px;
+}
+.welcomeRemark p{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 1.7rem;
+  width: 43%;
+}
+.aboutUsTextAndImage{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  margin: auto;
+  margin-top: 10%;
+  width: 80%;
+}
+ h2{
+  font-family: 'Roboto Serif', serif;
+  font-weight: 500;
+  margin-left: 20%;
+  font-size: 2.1rem;
+}
+.contactUsHeader h2{
+  margin: auto;
+padding: 25px;
+width: fit-content;
+}
+.aboutUsTextAndImage img{
+  width: 55%;
+}
+ .map{
+  position: relative;
+  width: 90%;
+  margin: auto;
+  /* height: 30px; */
+ }
+ .home{
+  text-decoration: none;
+  color: #000000;
+  margin: 10px;
+ }
+ .aboutUs{
+  text-decoration: none;
+  color: #000000;
+  margin: 10px;
+ }
+ .link{
+  font-family: 'Roboto Serif', serif;
+  margin-top: auto;
+  margin-bottom:auto ;
+  margin-left: 2%;
+ }
+ .home:hover{
+ color: #FB8500;
+ text-decoration: underline;
+ }
+ .aboutUs:hover{
+  color: #FB8500;
+  text-decoration: underline;
+  }
+ .iframeBackground {
+  color: white;
+  justify-content: space-between;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background: #FB8500B2;
+}
+.header {
+  margin-top: 40%;
+  margin-left: 10%;
+}
+
+.detailS{
+  margin-left: 10%;
+  width: 150px;
+}
+
+.contactDetails{
+  width: 100%;
+  justify-content: space-between;
+}
+.message {
+  padding: 10px;
+  padding-bottom: 100px;
+  margin-top: 5%;
+  margin-left: 5%;
+  width:89% ;
+  border: 0;
+  /* height: 100px; */
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  outline: none;
+}
+.message::placeholder{
+ top: 0;
+}
+.contactDetails input{
+  padding: 10px;
+  margin-top: 5%;
+  margin-left: 5%;
+  width:39% ;
+  border: 0;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  outline: none;
+}
+h2 .name{
+  font-family: 'Roboto Serif', serif;
+  margin-top: 5%;
+  margin-left: 35%;
+  padding: 20px;
+  font-size: 2.3rem;
+}
+.aboutUsTextAndImage p{
+  margin: auto;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10%;
+  text-align: center;
+}
+.aBit{
+  margin: auto;
+  background-color: #000000;
+}
+.aboutUsHeaderAndText{
+  width: 80%;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: #000000; */
+}
+
+iframe{
+  margin: auto;
+  background-color: #000000;
+}
+.welcomeRemark h1{
+  font-size: 3rem;
+  font-family: 'Roboto Serif', serif;
+  margin-top: 10%;
+  margin-left:1.5rem ;
+  font-weight: 500;
+}
+button{
+  margin: 3% 5%;
+  padding: 11px 21px;
+  border-radius: 5px;
+  border: 0;
+  background: #023047;
+  color: white;
+}
+footer{
+  width: 99vw;
+  background-color:#023047 ;
+}
+.footerName{
+  margin: auto;
+  color: white;
+}
+.icons img{
+  margin: 7px;
+  border-radius: 50%;
+}
+footer:hover{
+  cursor: pointer;
+  background:#FB8500;
+}
+.footerNav{
+  height: 14rem;
+  display: flex;
+}
+.nameAndIconsDiv{
+  margin: auto;
+}
+.footerNav img{
+  background: white;
+  /* height: 70px; */
+}
+button:hover{
+  cursor: pointer;
+  background-color: #FB8500;
+  ;
+}
+
+.logoWithWriteUp{
+  display: flex;
+  width: 30%;
+  margin-left: 10px;
+}
+.logoWithWriteUp p{
+  padding: 10px;
+}
+.logoName{
+  width: 80%;
+  margin: auto;
+  color: #000000;
+  font-weight: 500;
+}
+.kidImage{
+  width: 61%;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-left:auto ;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+ @media screen and (max-width:800px) {
+  .aboutUsTextAndImage{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+  }
+  .aboutUsTextAndImage img{
+   margin: auto;
+   width: 60%;
+  }
+  .aboutUsTextAndImage h2{
+   margin: auto;
+  }
+  .navbar{
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    padding: 5px;
+    width: 100%; 
+  }
+  .navbar p{
+    display: none;
+  }
+  .logoWithWriteUp{
+    width: fit-content;
+  }
+ }
