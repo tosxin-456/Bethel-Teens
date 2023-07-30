@@ -3,7 +3,7 @@ import kidsImage from '../../assets/image.png'
 import secondImge from '../../assets/image2.png'
 import '../../App.css'
 import facebook from '../../assets/Facebook.png'
-import instagram from '../../assets/Linkedin.png'
+import recorder from '../../assets/microphone.svg'
 import aboutUsImg from '../../assets/about us image.png'
 import React, { useState, useEffect } from 'react'
 import youtube from '../../assets/youtube.svg'
@@ -83,7 +83,7 @@ const Home = () => {
     </div>
     <div className='icons'>
     <a href="https://web.facebook.com/ChapelofFaithUJ/?_rdc=1&_rdr"><img src={facebook} alt="" /></a>
-    <img src={instagram} alt="" />
+    <a href="https://the-chapel-of-faith-unijos.mixlr.com/"><img src={recorder} alt="" /></a> 
     <a href="https://www.youtube.com/@ChapelofFaithUJ"><img src={youtube} alt="" className='youtube' /></a> 
     </div>
     </div>
