@@ -193,7 +193,7 @@ footer:hover{
 
 .footerNameAndLogo{
   display: flex;
-  width: 40%;
+  width: 15rem;
   margin: auto;
   padding: 10px;
 }
@@ -209,7 +209,7 @@ footer:hover{
   margin: auto;
 }
 .icons{
-  width: 30%;
+  width: 12rem;
   margin: auto;
   justify-content: center;
 }
