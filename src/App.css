@@ -314,7 +314,7 @@ button:hover{
     padding: 0px;
     position: relative;
     z-index: 3;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.4);
   }
   .logoWithWriteUp{
     margin: 0px;
@@ -328,19 +328,18 @@ button:hover{
     display: block;
   }
   .kidImage{
+    /* margin-top: 3%; */
     width: 55%;
   }
   h1{
     font-size:20px;
   }
   .home{
-    display: none;
+    color: white;
   }
   .aboutUs{
-    display: none;
-  }
-  .navbar img{
-    margin-left: auto;
+    color: white;
+
   }
   .welcomeRemark h1{
     font-size: 1.9rem;
