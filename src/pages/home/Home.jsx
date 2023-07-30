@@ -6,6 +6,7 @@ import facebook from '../../assets/Facebook.png'
 import instagram from '../../assets/Linkedin.png'
 import aboutUsImg from '../../assets/about us image.png'
 import React, { useState, useEffect } from 'react'
+import youtube from '../../assets/youtube.svg'
 
 const Home = () => {
   const images = [
@@ -74,15 +75,16 @@ const Home = () => {
     <input type="text" className='message' placeholder='Enter Your Message Here...' />
    <button>Send message</button>
    </form>
-   <footer>
-    <div className='footerNav'>
-    <img src="https://res.cloudinary.com/dba1aezsn/image/upload/v1690495972/chapel_logo_cph2jz.png" alt="" />
-    <div className='nameAndIconsDiv'>
+   <footer className='footerNav'>
+    <div>
+    <div className='footerNameAndLogo'>
+    <img src="https://res.cloudinary.com/dba1aezsn/image/upload/v1690495972/chapel_logo_cph2jz.png" className='footerLogo' alt="" />
     <p className='footerName'>The Chapel of Faith</p>
+    </div>
     <div className='icons'>
     <a href="https://web.facebook.com/ChapelofFaithUJ/?_rdc=1&_rdr"><img src={facebook} alt="" /></a>
     <img src={instagram} alt="" />
-    </div>
+    <a href="https://www.youtube.com/@ChapelofFaithUJ"><img src={youtube} alt="" className='youtube' /></a> 
     </div>
     </div>
    </footer>

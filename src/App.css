@@ -12,6 +12,9 @@
 body{
  width: 99vw; 
 }
+.youtube{
+  padding: 0px;
+}
 .navbar{
   background-color: white;
   z-index: 1;
@@ -179,29 +182,42 @@ button{
 footer{
   width: 100vw;
   background-color:#023047 ;
+  padding: 25px;
 }
 .footerName{
-  margin: auto;
   color: white;
-}
-.icons img{
-  margin: 7px;
-  border-radius: 50%;
 }
 footer:hover{
   cursor: pointer;
-  background:#FB8500;
 }
-.footerNav{
-  height: 14rem;
+
+.footerNameAndLogo{
   display: flex;
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+}
+.footerNameAndLogo img{
+  background-color: white;
+  border-radius: 30%;
+  width: 30px;
+}
+.footerName{
+  padding: 5px;
 }
 .nameAndIconsDiv{
   margin: auto;
 }
-.footerNav img{
+.icons{
+  width: 30%;
+  margin: auto;
+  justify-content: center;
+}
+.icons img{
+  border-radius: 30%;
   background: white;
-  /* height: 70px; */
+  width: 30px;
+  margin: 2px;
 }
 button:hover{
   cursor: pointer;
@@ -231,6 +247,7 @@ button:hover{
   top: 0;
   margin-left:auto ;
 }
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
