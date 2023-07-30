@@ -307,3 +307,42 @@ button:hover{
     margin: 10px;
   }
  }
+
+
+ @media screen and (max-width:500px) {
+  .navbar{
+    padding: 0px;
+    position: relative;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  .logoWithWriteUp{
+    margin: 0px;
+    background-color: white;
+  }
+  .logoWithWriteUp img{
+   padding: 0px;
+  }
+  .logoWithWriteUp p{
+    padding: 1px;
+    display: block;
+  }
+  .kidImage{
+    width: 55%;
+  }
+  h1{
+    font-size:20px;
+  }
+  .home{
+    display: none;
+  }
+  .aboutUs{
+    display: none;
+  }
+  .navbar img{
+    margin-left: auto;
+  }
+  .welcomeRemark h1{
+    font-size: 1.9rem;
+  }
+ }
