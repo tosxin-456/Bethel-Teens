@@ -83,7 +83,7 @@ const Home = () => {
     </div>
     <div className='icons'>
     <a href="https://web.facebook.com/ChapelofFaithUJ/?_rdc=1&_rdr"><img src={facebook} alt="" /></a>
-    <a href="https://the-chapel-of-faith-unijos.mixlr.com/"><img src={recorder} alt="" /></a> 
+    <a href="https://the-chapel-of-faith-unijos.mixlr.com/"><img src={recorder} alt="" className='microphone' /></a> 
     <a href="https://www.youtube.com/@ChapelofFaithUJ"><img src={youtube} alt="" className='youtube' /></a> 
     </div>
     </div>
