@@ -10,12 +10,12 @@ function App() {
     <Router>
       <Navbar/>
       <Switch>
+         <Route  path = '/aboutUs' Component={<About/>}>
+          </Route>
         <Route  path="/">
           <Home />
         </Route>
-        <Route  path = '/aboutUs'>
-            <About/>
-          </Route>
+      
       </Switch>
     </Router>
   );
