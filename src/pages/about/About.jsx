@@ -3,6 +3,8 @@ import '../../App.css'
 import React, { useState, useEffect } from 'react'
 import kidsImage from '../../assets/image.png'
 import teacher from '../../assets/teacher.svg'
+import emma from '../../assets/emma.svg'
+
 
 const About = () => {
   return ( 
@@ -26,11 +28,19 @@ const About = () => {
   <div>
     <h3>Diana</h3>
   <p>Diana Samson is a 21year old devoted Christian and worshipper who finds it as a passion to teach and guide youths as well as teenagers according to the alignment of God.</p> 
-  <p>Our teachings are relevant, relatable, and designed to address the real-life challenges and questions that teenagers face in today's world.</p>
-  <p>We believe in empowering teenagers to take on leadership roles, fostering skills that will serve them well throughout their lives.</p>
  </div>
+ 
   </div>
-
+  <div className='aboutUsTextAndImage'>
+    <header>Teens</header>
+    <p>We as teachers believe in empowering teenagers to take on leadership roles, fostering skills that will serve them well throughout their lives.</p>
+  <img src={emma} alt="" loading='lazy' />
+  <div>
+    <h3>Emma</h3>
+  <p>Diana Samson is a 21year old devoted Christian and worshipper who finds it as a passion to teach and guide youths as well as teenagers according to the alignment of God.</p> 
+ </div>
+ 
+  </div>
   </div>
   <div className='contactUsHeader'>
   <h2>Join us</h2>
