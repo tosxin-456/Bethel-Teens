@@ -52,6 +52,14 @@ width: fit-content;
 .aboutUsTextAndImage img{
   width: 75%;
 }
+header{
+  font-family: 'Roboto Serif', serif;
+  font-weight: bolder;
+  margin: auto;
+}
+h3{
+  margin: auto;
+}
 .aboutUsHeaderAndText{
   margin: auto;
 }
