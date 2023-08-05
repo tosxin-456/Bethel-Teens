@@ -129,12 +129,15 @@ h4{
 }
 .Teens{
   display: flex;
-  overflow: auto;
 }
 .teacherProfile{
   margin: 10px;
   display: flex;
   /* width: fit-content; */
+}
+section{
+  overflow: auto;
+  height: 25rem;
 }
 .textAboutTeacher{
   padding: 7px;

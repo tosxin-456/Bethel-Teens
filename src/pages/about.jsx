@@ -27,7 +27,15 @@ const About = () => {
   <h2>Meet us</h2>
   <div className='allUsers'>
     <h3>Teachers</h3>
+    <section>
   <div className='Teachers'>
+   <div className='teacherProfile'>
+   <img src={teacher} alt="" />
+     <div className='textAboutTeacher'>
+     <h4> Daring Diana</h4>
+      <p>Diana Samson is a 21year old devoted Christian and worshipper who finds it as a passion to teach and guide youths as well as teenagers according to the alignment of God.</p>
+     </div>
+   </div>
    <div className='teacherProfile'>
    <img src={teacher} alt="" />
      <div className='textAboutTeacher'>
@@ -43,7 +51,9 @@ const About = () => {
      </div>
    </div>
   </div>
+    </section>
     <h3>Teens</h3>
+   <section>
   <div className='Teens'>
   <div className='teacherProfile'>
    <img src={emma} alt="" />
@@ -51,7 +61,13 @@ const About = () => {
      <h4>Extravagant Emma</h4>
       <p>Emma Chomini is a 19 year old that believes in Christ and is dedicating his time to study God’s word in other to implement them to help improve his way of living.</p>
      </div>
-     
+   </div>
+   <div className='teacherProfile'>
+   <img src={emma} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Extravagant Emma</h4>
+      <p>Emma Chomini is a 19 year old that believes in Christ and is dedicating his time to study God’s word in other to implement them to help improve his way of living.</p>
+     </div>
    </div>
    <div className='teacherProfile'>
    <img src={emma} alt="" />
@@ -62,6 +78,7 @@ const About = () => {
      
    </div>
   </div>
+   </section>
   </div>
   </div>
   <div className='contactUsHeader'>
