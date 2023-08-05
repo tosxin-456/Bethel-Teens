@@ -44,6 +44,10 @@ body{
   margin-left: 20%;
   font-size: 2.1rem;
 }
+h3{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
 .contactUsHeader h2{
   margin: auto;
 padding: 25px;
@@ -57,8 +61,9 @@ header{
   font-weight: bolder;
   margin: auto;
 }
-h3{
-  margin: auto;
+h4{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
 }
 .aboutUsHeaderAndText{
   margin: auto;
@@ -115,10 +120,41 @@ h3{
   margin-top: 40%;
   margin-left: 10%;
 }
+.Teachers{
+  display: flex;
+  overflow: auto;
+}
+.allUsers{
+  margin-top: 20px;
+}
+.Teens{
+  display: flex;
+  overflow: auto;
+}
+.teacherProfile{
+  margin: 10px;
+  display: flex;
+  /* width: fit-content; */
+}
+.textAboutTeacher{
+  padding: 7px;
+  /* background-color: #023047; */
+}
+.teacherProfile div{
+  margin: auto;
+  width: 15rem;
+}
 
+.teacherProfile img{
+  width: 11rem;
+}
 .detailS{
   margin-left: 10%;
   width: 150px;
+}
+.teacherProfile h3{
+
+text-align: center;
 }
 
 .contactDetails{
@@ -272,7 +308,14 @@ button:hover{
  *{
   overflow-x: hidden;
  } 
-
+ .Teachers{
+  display: flex;
+  flex-direction: column;
+}
+.Teens{
+  display: flex;
+  flex-direction: column;
+}
   .kidImage{
     width: 50%;
   }

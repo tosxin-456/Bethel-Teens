@@ -4,7 +4,11 @@ import React, { useState, useEffect } from 'react'
 import kidsImage from '../../assets/image.png'
 import teacher from '../../assets/teacher.svg'
 import emma from '../../assets/emma.svg'
-
+import facebook from '../../assets/Facebook.png'
+import recorder from '../../assets/microphone.svg'
+import aboutUsImg from '../../assets/about us image.png'
+import youtube from '../../assets/youtube.svg'
+import teens1 from '../../assets/teens1.svg'
 
 const About = () => {
   return ( 
@@ -21,25 +25,43 @@ const About = () => {
   </div>
   <div className='aboutUsHeaderAndText'>
   <h2>Meet us</h2>
-  <div className='aboutUsTextAndImage'>
-    <header>Teachers</header>
-    <p>We as teachers believe in empowering teenagers to take on leadership roles, fostering skills that will serve them well throughout their lives.</p>
-  <img src={teacher} alt="" loading='lazy' />
-  <div>
-    <h3>Diana</h3>
-  <p>Diana Samson is a 21year old devoted Christian and worshipper who finds it as a passion to teach and guide youths as well as teenagers according to the alignment of God.</p> 
- </div>
- 
+  <div className='allUsers'>
+    <h3>Teachers</h3>
+  <div className='Teachers'>
+   <div className='teacherProfile'>
+   <img src={teacher} alt="" />
+     <div className='textAboutTeacher'>
+     <h4> Daring Diana</h4>
+      <p>Diana Samson is a 21year old devoted Christian and worshipper who finds it as a passion to teach and guide youths as well as teenagers according to the alignment of God.</p>
+     </div>
+   </div>
+   <div className='teacherProfile'>
+   <img src={teacher} alt="" />
+     <div className='textAboutTeacher'>
+      <h4> Daring Diana</h4>
+      <p>Diana Samson is a 21year old devoted Christian and worshipper who finds it as a passion to teach and guide youths as well as teenagers according to the alignment of God.</p>
+     </div>
+   </div>
   </div>
-  <div className='aboutUsTextAndImage'>
-    <header>Teens</header>
-    <p>We as teachers believe in empowering teenagers to take on leadership roles, fostering skills that will serve them well throughout their lives.</p>
-  <img src={emma} alt="" loading='lazy' />
-  <div>
-    <h3>Emma</h3>
-  <p>Diana Samson is a 21year old devoted Christian and worshipper who finds it as a passion to teach and guide youths as well as teenagers according to the alignment of God.</p> 
- </div>
- 
+    <h3>Teens</h3>
+  <div className='Teens'>
+  <div className='teacherProfile'>
+   <img src={emma} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Extravagant Emma</h4>
+      <p>Emma Chomini is a 19 year old that believes in Christ and is dedicating his time to study God’s word in other to implement them to help improve his way of living.</p>
+     </div>
+     
+   </div>
+   <div className='teacherProfile'>
+   <img src={emma} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Extravagant Emma</h4>
+      <p>Emma Chomini is a 19 year old that believes in Christ and is dedicating his time to study God’s word in other to implement them to help improve his way of living.</p>
+     </div>
+     
+   </div>
+  </div>
   </div>
   </div>
   <div className='contactUsHeader'>
@@ -53,9 +75,9 @@ const About = () => {
     <p className='footerName'>The Chapel of Faith</p>
     </div>
     <div className='icons'>
-    {/* <a href="https://web.facebook.com/ChapelofFaithUJ/?_rdc=1&_rdr"><img src={facebook} alt="" /></a>
+    <a href="https://web.facebook.com/ChapelofFaithUJ/?_rdc=1&_rdr"><img src={facebook} alt="" /></a>
     <a href="https://the-chapel-of-faith-unijos.mixlr.com/"><img src={recorder} alt="" className='microphone' /></a> 
-    <a href="https://www.youtube.com/@ChapelofFaithUJ"><img src={youtube} alt="" className='youtube' /></a>  */}
+    <a href="https://www.youtube.com/@ChapelofFaithUJ"><img src={youtube} alt="" className='youtube' /></a> 
     </div>
     </div>
    </footer>
