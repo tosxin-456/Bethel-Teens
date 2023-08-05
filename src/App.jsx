@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './pages/home/Home';
 import Navbar from './components/navBar';
@@ -10,12 +10,11 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/aboutUs" component={About} />
-        <Route path="/">
-          <Home />
-        </Route>
+        <Route path="/" component={Home} />
       </Switch>
     </Router>
   );
 }
 
 export default App;
+
