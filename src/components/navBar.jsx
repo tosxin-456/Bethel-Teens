@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import hamburgerMenu from '../assets/hamburgerMenu.svg'
 
 const Navbar = () => {
   return (

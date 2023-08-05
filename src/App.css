@@ -142,7 +142,7 @@ width: fit-content;
   outline: none;
 }
 input{
-  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0.5px 0.2px 0.4px 0.4px rgba(0, 0, 0, 0.5);
 }
 .aboutUsTextAndImage p{
   margin: auto;
@@ -238,7 +238,7 @@ button:hover{
   font-weight: 500;
 }
 .kidImage{
-  width: 61%;
+  width: 51%;
   z-index: 2;
   position: absolute;
   right: 0;
@@ -261,8 +261,12 @@ button:hover{
 }
 
  @media screen and (max-width:800px) {
+ *{
+  overflow-x: hidden;
+ } 
+
   .kidImage{
-    width: 49%;
+    width: 50%;
   }
   .aboutUsTextAndImage{
     font-family: 'Roboto', sans-serif;
@@ -274,10 +278,14 @@ button:hover{
   }
   .aboutUsTextAndImage img{
    margin: auto;
-   width: 60%;
+   width: 85%;
   }
   .aboutUsTextAndImage h2{
    margin: auto;
+  }
+  .aboutUsTextAndImage p{
+    margin-left: 0px;
+    width: 100%;
   }
   .navbar{
     background-color: white;
@@ -298,7 +306,7 @@ button:hover{
   .home{
     margin: 3px;
   }
-  footer{
+  .footerNav{
     width: 100vw;
   }
   button{
@@ -314,11 +322,13 @@ button:hover{
     flex-direction: column;
   }
   .contactDetails input{
-    /* margin: auto; */
     width: 70%;
   }
   .number{
     margin: 10px;
+  }
+  .map{
+    width: 100%;
   }
  }
 
@@ -342,8 +352,8 @@ button:hover{
     display: block;
   }
   .kidImage{
-    /* margin-top: 3%; */
-    width: 57%;
+    padding: 0px;
+    width: 53%;
   }
   h1{
     font-size:20px;

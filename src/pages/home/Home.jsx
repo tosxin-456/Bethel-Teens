@@ -7,6 +7,7 @@ import recorder from '../../assets/microphone.svg'
 import aboutUsImg from '../../assets/about us image.png'
 import React, { useState, useEffect } from 'react'
 import youtube from '../../assets/youtube.svg'
+import teens1 from '../../assets/teens1.svg'
 
 const Home = () => {
   const images = [
