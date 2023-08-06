@@ -7,9 +7,9 @@ import 'swiper/css/bundle';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import teen1 from '../assets/image.png';
+import teen1 from '../assets/edeh and ada.jpg';
 import kidsImage from '../assets/image.png';
-import teacher from '../assets/teacher.svg';
+import teacher from '../assets/WhatsApp Image 2023-08-02 at 12.57.59.jpg';
 import '../App.css'
 
 const Slider = () => {
@@ -22,8 +22,8 @@ const Slider = () => {
   return (
     <Swiper
     modules={[Navigation, Pagination, Scrollbar, A11y]}
-    spaceBetween={50}
-    slidesPerView={2}
+    spaceBetween={10}
+    slidesPerView={1}
     navigation
     pagination={{ clickable: true }}
     scrollbar={{ draggable: true }}
@@ -32,6 +32,7 @@ const Slider = () => {
   >
     <div className='galleryImg'>
     <SwiperSlide><img src={teen1} className='img' alt="" /></SwiperSlide>
+    <div className='galleryBackground'></div>
     <SwiperSlide><img src={teacher} alt=""  className='img' /></SwiperSlide>
     <SwiperSlide><img src={kidsImage} alt=""  className='img' /></SwiperSlide>
     <SwiperSlide><img src={teen1} alt=""  className='img' /></SwiperSlide>

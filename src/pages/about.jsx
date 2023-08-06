@@ -1,7 +1,7 @@
 import churchLogo from '../assets/fa-solid_church.svg'
 import '../App.css'
 import React, { useState, useEffect } from 'react'
-import kidsImage from '../assets/image.png'
+import kidsImage from '../assets/destine.svg'
 import teacher from '../assets/teacher.svg'
 import emma from '../assets/emma.svg'
 import facebook from '../assets/Facebook.png'
