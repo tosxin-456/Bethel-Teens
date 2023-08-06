@@ -136,8 +136,8 @@ h4{
   /* width: fit-content; */
 }
 section{
-  overflow: auto;
-  height: 25rem;
+  overflow-y: auto;
+  width: 50vw;
 }
 .textAboutTeacher{
   padding: 7px;
@@ -311,6 +311,10 @@ button:hover{
  *{
   overflow-x: hidden;
  } 
+ section{
+  overflow: auto;
+  height: 25rem;
+}
  .Teachers{
   display: flex;
   flex-direction: column;
