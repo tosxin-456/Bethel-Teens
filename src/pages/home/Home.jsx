@@ -3,7 +3,7 @@ import kidsImage from '../../assets/kidsImage.svg'
 import secondImge from '../../assets/image2.png'
 import '../../App.css'
 import facebook from '../../assets/Facebook.png'
-import recorder from '../../assets/microphone.svg'
+import instagram from '../../assets/instagram.png'
 import aboutUsImg from '../../assets/teensGroup.png'
 import React, { useState, useEffect } from 'react'
 import youtube from '../../assets/youtube.svg'
@@ -26,7 +26,7 @@ const Home = () => {
   },[images])
   return (
     <>
-      <img src={kidsImage} loading='lazy' className='kidImage' alt="" />
+      <img src={kidsImage}  className='kidImage' alt="" />
   <div className='welcomeRemark'>
     <h1>
       Bethel <br /> Teens Club
@@ -84,7 +84,7 @@ const Home = () => {
     </div>
     <div className='icons'>
     <a href="https://web.facebook.com/ChapelofFaithUJ/?_rdc=1&_rdr"><img src={facebook} alt="" /></a>
-    <a href="https://the-chapel-of-faith-unijos.mixlr.com/"><img src={recorder} alt="" className='microphone' /></a> 
+    <a href="https://instagram.com/chapeloffaithunijos?igshid=MzRlODBiNWFlZA=="><img src={instagram} alt="" className='microphone' /></a> 
     <a href="https://www.youtube.com/@ChapelofFaithUJ"><img src={youtube} alt="" className='youtube' /></a> 
     </div>
     </div>

@@ -5,7 +5,7 @@ import kidsImage from '../assets/image.png'
 import teacher from '../assets/teacher.svg'
 import emma from '../assets/emma.svg'
 import facebook from '../assets/Facebook.png'
-import recorder from '../assets/microphone.svg'
+import instagram from '../assets/instagram.png'
 import aboutUsImg from '../assets/about us image.png'
 import youtube from '../assets/youtube.svg'
 import teens1 from '../assets/teens1.svg'
@@ -93,7 +93,7 @@ const About = () => {
     </div>
     <div className='icons'>
     <a href="https://web.facebook.com/ChapelofFaithUJ/?_rdc=1&_rdr"><img src={facebook} alt="" /></a>
-    <a href="https://the-chapel-of-faith-unijos.mixlr.com/"><img src={recorder} alt="" className='microphone' /></a> 
+    <a href="https://instagram.com/chapeloffaithunijos?igshid=MzRlODBiNWFlZA=="><img src={instagram} alt="" className='microphone' /></a> 
     <a href="https://www.youtube.com/@ChapelofFaithUJ"><img src={youtube} alt="" className='youtube' /></a> 
     </div>
     </div>
