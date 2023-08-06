@@ -1,10 +1,10 @@
 import churchLogo from '../../assets/fa-solid_church.svg'
-import kidsImage from '../../assets/image.png'
+import kidsImage from '../../assets/kidsImage.svg'
 import secondImge from '../../assets/image2.png'
 import '../../App.css'
 import facebook from '../../assets/Facebook.png'
 import recorder from '../../assets/microphone.svg'
-import aboutUsImg from '../../assets/about us image.png'
+import aboutUsImg from '../../assets/teensGroup.png'
 import React, { useState, useEffect } from 'react'
 import youtube from '../../assets/youtube.svg'
 import teens1 from '../../assets/teensGroup.png'
@@ -39,7 +39,7 @@ const Home = () => {
   <div className='aboutUsHeaderAndText'>
   <h2>A bit about us</h2>
   <div className='aboutUsTextAndImage'>
-  <img src={teens1} alt="" loading='lazy' />
+  <img src={aboutUsImg} alt="" loading='lazy' />
   <div>
   <p>Our church is designed with teenagers in mind! We aim to create a space where you feel heard, understood, and valued.</p> 
   <p>Our teachings are relevant, relatable, and designed to address the real-life challenges and questions that teenagers face in today's world.</p>
