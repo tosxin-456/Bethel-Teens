@@ -113,6 +113,7 @@ h4{
   }
   .img2{
     width: 180%;
+
   }
  .iframeBackground {
   color: white;
@@ -136,6 +137,7 @@ h4{
 }
 .allUsers{
   margin-top: 20px;
+  width: 90vw;
 }
 .Teens{
   display: flex;
@@ -151,11 +153,10 @@ section{
 }
 .textAboutTeacher{
   padding: 7px;
-  /* background-color: #023047; */
 }
 .teacherProfile div{
   margin: auto;
-  width: 15rem;
+  width: 90%;
 }
 
 .teacherProfile img{
