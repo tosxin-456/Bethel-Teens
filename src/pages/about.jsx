@@ -8,7 +8,7 @@ import facebook from '../assets/Facebook.png'
 import instagram from '../assets/instagram.png'
 import aboutUsImg from '../assets/about us image.png'
 import youtube from '../assets/youtube.svg'
-import teens1 from '../assets/teens1.svg'
+import auntyPeace from '../assets/aunty Peace.png'
 
 const About = () => {
   return ( 
@@ -30,10 +30,10 @@ const About = () => {
     <section>
   <div className='Teachers'>
    <div className='teacherProfile'>
-   <img src={teacher} alt="" />
+   <img src={auntyPeace} alt="" />
      <div className='textAboutTeacher'>
-     <h4> Daring Diana</h4>
-      <p>Diana Samson is a 21year old devoted Christian and worshipper who finds it as a passion to teach and guide youths as well as teenagers according to the alignment of God.</p>
+     <h4> Peaceful Peace(Leader)</h4>
+      <p>blah blah blah blah blah blah</p>
      </div>
    </div>
    <div className='teacherProfile'>
