@@ -160,7 +160,8 @@ section{
 }
 
 .teacherProfile img{
-  width: 11rem;
+  width: 60%;
+  height: 60%;
 }
 .detailS{
   margin-left: 10%;

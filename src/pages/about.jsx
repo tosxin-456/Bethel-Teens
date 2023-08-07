@@ -9,8 +9,8 @@ import instagram from '../assets/instagram.png'
 import aboutUsImg from '../assets/about us image.png'
 import youtube from '../assets/youtube.svg'
 import auntyPeace from '../assets/aunty Peace.png'
-import isaac from '../assets/isaac.svg'
-
+import Iconincisaac from '../assets/isaac.svg'
+import favouredFavor from '../assets/favoured favour.svg'
 
 
 const About = () => {
@@ -36,7 +36,7 @@ const About = () => {
    <img src={auntyPeace} alt="" />
      <div className='textAboutTeacher'>
      <h4> Peaceful Peace(Leader)</h4>
-      <p>blah blah blah blah blah blah</p>
+      <p>Aunty Peace, gracefully imparts timeless wisdom with kindness, fostering harmony and unity, while guiding others to embrace love, compassion, and understanding in their lives.</p>
      </div>
    </div>
    <div className='teacherProfile'>
@@ -59,26 +59,26 @@ const About = () => {
    <section>
   <div className='Teens'>
   <div className='teacherProfile'>
-   <img src={emma} alt="" />
+   <img src={favouredFavor} alt="" />
      <div className='textAboutTeacher'>
-     <h4>Extravagant Emma</h4>
-      <p>Emma Chomini is a 19 year old that believes in Christ and is dedicating his time to study God’s word in other to implement them to help improve his way of living.</p>
-     </div>
-   </div>
-   <div className='teacherProfile'>
-   <img src={isaac} alt="" />
-     <div className='textAboutTeacher'>
-     <h4>indigo Isaac</h4>
-      <p>Emma Chomini is a 19 year old that believes in Christ and is dedicating his time to study God’s word in other to implement them to help improve his way of living.</p>
-     </div>
-   </div>
-   <div className='teacherProfile'>
-   <img src={emma} alt="" />
-     <div className='textAboutTeacher'>
-     <h4>Extravagant Emma</h4>
-      <p>Emma Chomini is a 19 year old that believes in Christ and is dedicating his time to study God’s word in other to implement them to help improve his way of living.</p>
+     <h4>Favoured Favour (Asst. Leader)</h4>
+      <p>Favoured Favour, a spirited teen, radiates positivity and kindness. Empowering others with a contagious smile, she embraces challenges, spreading joy and inspiring those around her with her incredible resilience and empathy.</p>
      </div>
      
+   </div>
+  <div className='teacherProfile'>
+   <img src={emma} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Extravagant Emma</h4>
+      <p>Emma Chomini is a 19 year old that believes in Christ and is dedicating his time to study God’s word in other to implement them to help improve his way of living.</p>
+     </div>
+   </div>
+   <div className='teacherProfile'>
+   <img src={Iconincisaac} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Iconic Isaac</h4>
+      <p>Iconic Isaac, a Christian teen, exemplifies unwavering faith, compassion, and leadership. His dedication to serving others shines through his actions, inspiring peers and making a positive impact.</p>
+     </div>
    </div>
   </div>
    </section>
