@@ -9,6 +9,9 @@ import instagram from '../assets/instagram.png'
 import aboutUsImg from '../assets/about us image.png'
 import youtube from '../assets/youtube.svg'
 import auntyPeace from '../assets/aunty Peace.png'
+import isaac from '../assets/isaac.svg'
+
+
 
 const About = () => {
   return ( 
@@ -63,9 +66,9 @@ const About = () => {
      </div>
    </div>
    <div className='teacherProfile'>
-   <img src={emma} alt="" />
+   <img src={isaac} alt="" />
      <div className='textAboutTeacher'>
-     <h4>Extravagant Emma</h4>
+     <h4>indigo Isaac</h4>
       <p>Emma Chomini is a 19 year old that believes in Christ and is dedicating his time to study God’s word in other to implement them to help improve his way of living.</p>
      </div>
    </div>
