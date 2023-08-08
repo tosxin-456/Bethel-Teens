@@ -148,20 +148,20 @@ h4{
   /* width: fit-content; */
 }
 section{
-  overflow-y: auto;
-  width: 50vw;
+  overflow: auto;
 }
 .textAboutTeacher{
   padding: 7px;
 }
 .teacherProfile div{
+  
   margin: auto;
   width: 90%;
 }
 
 .teacherProfile img{
-  width: 60%;
-  height: 60%;
+  width: 13rem;
+  height: 8rem;
 }
 .detailS{
   margin-left: 10%;
