@@ -8,8 +8,9 @@ import image7 from '../assets/bake6.jpg'
 import image8 from '../assets/picnicTeens5.jpg'
 import image9 from '../assets/picnicTeens6.jpg'
 import image10 from '../assets/picnicTeens8.jpg'
-
-
+import facebook from '../assets/Facebook.png'
+import instagram from '../assets/instagram.png'
+import youtube from '../assets/youtube.svg'
 
 
 
@@ -60,6 +61,19 @@ const Gallery = () => {
   </div>
    </div>
   </div>
+  <footer className='footerNav'>
+    <div>
+    <div className='footerNameAndLogo'>
+    <img src="https://res.cloudinary.com/dba1aezsn/image/upload/v1690495972/chapel_logo_cph2jz.png" className='footerLogo' alt="" />
+    <p className='footerName'>The Chapel of Faith</p>
+    </div>
+    <div className='icons'>
+    <a href="https://web.facebook.com/ChapelofFaithUJ/?_rdc=1&_rdr"><img src={facebook} alt="" /></a>
+    <a href="https://instagram.com/chapeloffaithunijos?igshid=MzRlODBiNWFlZA=="><img src={instagram} alt="" className='microphone' /></a> 
+    <a href="https://www.youtube.com/@ChapelofFaithUJ"><img src={youtube} alt="" className='youtube' /></a> 
+    </div>
+    </div>
+   </footer>
   </>  );
 }
  
