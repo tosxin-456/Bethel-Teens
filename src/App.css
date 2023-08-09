@@ -7,7 +7,7 @@
   margin: 0;
   top: 0;
   left: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 body{
  width: 99vw; 
@@ -147,25 +147,26 @@ section{
   margin: auto;
 }
 .allUsers{
-  /* background-color: #000000; */
   margin-bottom: 20px;
-
-  /* margin-top: 20px; */
   width: 100%;
+}
+section .Teens{
+  overflow-x: auto;
+  width: fit-content;
+}
+section .Teachers{
+  overflow-x: auto;
+  width: fit-content;
+}
+ .Teachers{
+  display: flex;
 }
 .Teens{
   display: flex;
 }
 .teacherProfile{
   margin: 10px;
-}
-section{
-  overflow-y: auto;
-  /* background-color: #000000; */
-}
-.allUsers{
-  margin-left: 0px;
-  /* background-color: #FB8500; */
+  width: 17rem;
 }
 .textAboutTeacher{
   padding: 7px;
@@ -173,9 +174,6 @@ section{
 .teacherProfile div{
   margin: auto;
   /* width: 35rem; */
-}
-.teacherProfile{
-  width: fit-content;
 }
 .teacherProfile img{
   height: 8rem;
@@ -336,6 +334,7 @@ button:hover{
   margin-left:auto ;
 }
 
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -369,13 +368,10 @@ button:hover{
   }
 }
  @media screen and (max-width:800px) {
- *{
-  overflow-x: hidden;
- } 
  section{
   overflow: auto;
-  height: 25rem;
-  width: 95%;
+  height: 25rem;  
+  width: fit-content;
 }
  .Teachers{
   display: flex;
