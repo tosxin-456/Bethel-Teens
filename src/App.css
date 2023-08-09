@@ -48,10 +48,7 @@ body{
   margin-left: 20%;
   font-size: 2.1rem;
 }
-h3{
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-}
+
 .contactUsHeader h2{
   margin: auto;
 padding: 25px;
@@ -151,10 +148,12 @@ section{
   width: 100%;
 }
 section .Teens{
+  margin: 15px;
   overflow-x: auto;
   width: fit-content;
 }
 section .Teachers{
+  margin: 15px;
   overflow-x: auto;
   width: fit-content;
 }
@@ -185,9 +184,10 @@ width: 90%;
   margin-left: 10%;
   width: 150px;
 }
-.teacherProfile h3{
-width: fit-content;
-text-align: center;
+.allUsers h3{
+  font-family: 'Roboto', sans-serif;
+  margin: 20px;
+  text-align: center;
 }
 .galleryImg{
   position: relative;
