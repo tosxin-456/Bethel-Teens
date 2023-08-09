@@ -15,7 +15,6 @@ import picNic2 from '../assets/picnicTeens2.jpg'
 import picNic3 from '../assets/picnicTeens7.jpg'
 
 import '../App.css'
-import Gallery from './gallery';
 
 
 const Slider = () => {
