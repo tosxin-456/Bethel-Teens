@@ -323,13 +323,13 @@ button:hover{
 .gallery{
   background-color: #FB8500;
   margin: auto;
-  width: 100%;
+  width: fit-content;
   padding: 3px;
 }
 .firstPic{
 background-color: #FFFFFF;
 border-radius: 10px;
-width: 6.7rem;
+width: 70%;
  margin: 5px;
 }
 .firstPic img{
