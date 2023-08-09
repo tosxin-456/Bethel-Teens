@@ -5,7 +5,6 @@ const EntireGallery = () => {
   return (
   <>
   <Slider/>
-
   <Gallery/>
   </>
    );
