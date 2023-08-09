@@ -26,7 +26,7 @@ const About = () => {
       We are a vibrant and inclusive community specifically designed for teenagers. Whether you're just starting to explore your faith or have been on this journey for a while, we have a place for you here.
       </p>
   </div>
-  <div className='aboutUsHeaderAndText'>
+  <div className='MeetUs'>
   <h2>Meet us</h2>
   <div className='allUsers'>
     <h3>Teachers</h3>
@@ -66,10 +66,18 @@ const About = () => {
      </div>
      
    </div>
+   <div className='teacherProfile'>
+   <img src={favouredFavor} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Favoured Favour (Vice. President)</h4>
+      <p>Favoured Favour, a spirited teen, radiates positivity and kindness. Empowering others with a contagious smile, she embraces challenges, spreading joy and inspiring those around her with her incredible resilience and empathy.</p>
+     </div>
+     
+   </div>
   <div className='teacherProfile'>
    <img src={emma} alt="" />
      <div className='textAboutTeacher'>
-     <h4>Extravagant Emma</h4>
+     <h4>Extravagant Emma(Music direct.)</h4>
       <p>Emma Chomini is a 19 year old that believes in Christ and is dedicating his time to study God’s word in other to implement them to help improve his way of living.</p>
      </div>
    </div>

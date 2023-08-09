@@ -69,9 +69,6 @@ h4{
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
 }
-.aboutUsHeaderAndText{
-  margin: auto;
-}
 .aboutUsHeaderAndText h2{
   width: fit-content;
   margin: auto;
@@ -133,42 +130,65 @@ h4{
 }
 .Teachers{
   display: flex;
+}
+section{
+  overflow-y: auto;
+  /* width: 10rem; */
+}
+.MeetUs{
+  width: 80%;
+  margin-top: 15%;
+  margin-left: 15px;
+  margin-right: auto;
   overflow: auto;
 }
+.MeetUs h2{
+  width: fit-content;
+  margin: auto;
+}
 .allUsers{
-  margin-top: 20px;
-  width: 90vw;
+  /* background-color: #000000; */
+  margin-bottom: 20px;
+
+  /* margin-top: 20px; */
+  width: 100%;
 }
 .Teens{
   display: flex;
 }
 .teacherProfile{
   margin: 10px;
-  display: flex;
-  /* width: fit-content; */
 }
 section{
-  overflow: auto;
+  overflow-y: auto;
+  /* background-color: #000000; */
+}
+.allUsers{
+  margin-left: 0px;
+  /* background-color: #FB8500; */
 }
 .textAboutTeacher{
   padding: 7px;
 }
 .teacherProfile div{
-  
   margin: auto;
-  width: 90%;
+  /* width: 35rem; */
 }
-
+.teacherProfile{
+  width: fit-content;
+}
 .teacherProfile img{
-  width: 13rem;
   height: 8rem;
+}
+.teacherProfile p{
+width: 90%;
 }
 .detailS{
   margin-left: 10%;
   width: 150px;
 }
 .teacherProfile h3{
-
+width: fit-content;
 text-align: center;
 }
 .galleryImg{
@@ -315,6 +335,7 @@ button:hover{
   top: 0;
   margin-left:auto ;
 }
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -329,7 +350,24 @@ button:hover{
     animation: logo-spin infinite 20s linear;
   }
 }
-
+@media screen and (min-width:801px) and (max-width:995px) {
+  .navbar{
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    padding: 5px;
+    width: 100%; 
+  }
+  .navbar p{
+    display: none;
+  }
+  .home{
+    margin: 3px;
+  }
+  .logoWithWriteUp{
+    width: fit-content;
+  }
+}
  @media screen and (max-width:800px) {
  *{
   overflow-x: hidden;
@@ -346,6 +384,15 @@ button:hover{
 .Teens{
   display: flex;
   flex-direction: column;
+}
+.teacherProfile{
+  /* margin: auto; */
+  
+  align-items: center;
+}
+.teacherProfile img{
+margin: auto;
+position: relative;
 }
   .kidImage{
     width: 50%;
@@ -415,7 +462,7 @@ button:hover{
  }
 
 
- @media screen and (max-width:500px) {
+ @media screen and (max-width:515px) {
   .navbar{
     padding: 0px;
     position: relative;
