@@ -8,15 +8,17 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import teen1 from '../assets/edeh and ada.jpg';
-import kidsImage from '../assets/image.png';
-import teacher from '../assets/WhatsApp Image 2023-08-02 at 12.57.59.jpg';
+import bake2 from '../assets/Bake3.jpg';
+import bakingTeens from '../assets/WhatsApp Image 2023-08-02 at 12.57.59.jpg';
+import picNic1 from '../assets/picnicTeens.jpg'
+import picNic2 from '../assets/picnicTeens2.jpg'
 import '../App.css'
 
 const Slider = () => {
   const images = [
     teen1,
-    kidsImage,
-    teacher,
+    picNic1,
+    bakingTeens,
   ];
 
   return (
@@ -31,11 +33,11 @@ const Slider = () => {
     onSlideChange={() => console.log('slide change')}
   >
     <div className='galleryImg'>
-    <SwiperSlide><img src={teen1} className='img' alt="" /></SwiperSlide>
+    <SwiperSlide><img src={picNic2} className='img' alt="" /></SwiperSlide>
     <div className='galleryBackground'></div>
-    <SwiperSlide><img src={teacher} alt=""  className='img' /></SwiperSlide>
-    <SwiperSlide><img src={kidsImage} alt=""  className='img' /></SwiperSlide>
-    <SwiperSlide><img src={teen1} alt=""  className='img' /></SwiperSlide>
+    <SwiperSlide><img src={bakingTeens} alt=""  className='img' /></SwiperSlide>
+    <SwiperSlide><img src={picNic1} alt=""  className='img' /></SwiperSlide>
+    <SwiperSlide><img src={bake2} alt=""  className='img' /></SwiperSlide>
   </div>
   </Swiper>
   );
