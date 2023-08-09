@@ -13,7 +13,6 @@ import bakingTeens from '../assets/WhatsApp Image 2023-08-02 at 12.57.59.jpg';
 import picNic1 from '../assets/picnicTeens.jpg'
 import picNic2 from '../assets/picnicTeens2.jpg'
 import picNic3 from '../assets/picnicTeens7.jpg'
-
 import '../App.css'
 
 
