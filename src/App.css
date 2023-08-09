@@ -328,7 +328,7 @@ button:hover{
 }
 .firstPic{
 background-color: #FFFFFF;
-border-radius: 10px;
+border-radius: 15px;
 width: 70%;
  margin: 5px;
 }
@@ -340,13 +340,16 @@ width: 70%;
   font-family: 'Roboto Serif', serif;
   background-color: #FFFFFF;
   text-align: center;
-  font-size: 12px;
+  font-size: 20px;
   width: 100%;
   border-radius: 10px;
 }
 .setOfThree{
   display: flex;
   width: fit-content;
+}
+.swiper img{
+  width: 100%;
 }
 @keyframes logo-spin {
   from {
@@ -379,12 +382,18 @@ width: 70%;
   .logoWithWriteUp{
     width: fit-content;
   }
+  .firstPic p{
+    font-size: 12px;
+  }
 }
  @media screen and (max-width:800px) {
  section{
   overflow: auto;
   height: 25rem;  
   width: fit-content;
+}
+.firstPic p{
+  font-size: 12px;
 }
  .Teachers{
   display: flex;

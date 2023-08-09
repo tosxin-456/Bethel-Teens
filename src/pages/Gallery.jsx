@@ -7,7 +7,7 @@ import image6 from '../assets/bake5.jpg'
 import image7 from '../assets/bake6.jpg'
 import image8 from '../assets/picnicTeens5.jpg'
 import image9 from '../assets/picnicTeens6.jpg'
-import image10 from '../assets/picnicTeens8.jpg'
+import image10 from '../assets/bake7.jpg'
 import facebook from '../assets/Facebook.png'
 import instagram from '../assets/instagram.png'
 import youtube from '../assets/youtube.svg'
@@ -56,7 +56,7 @@ const Gallery = () => {
     <p className='text'>Picnic In Wild-Life Park</p>
   </div>
   <div className='firstPic'>
-    <img src={image5} alt="" id='LongOnes' />
+    <img src={image10} alt="" id='LongOnes' />
     <p className='text'>Baking Lesson</p>
   </div>
    </div>
