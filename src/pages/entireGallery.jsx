@@ -1,5 +1,5 @@
 import Slider from "./Slider";
-import Gallery from "./gallery";
+import Gallery from "./Gallery";
 
 const EntireGallery = () => {
   return (
