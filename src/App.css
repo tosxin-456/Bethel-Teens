@@ -13,8 +13,7 @@ body{
  width: 99vw; 
 }
 .galleryImg{
-  z-index: 2;
-  background-color: rgba(0, 0, 0, 0.5);
+width: 50%;
 }
 .youtube{
   padding: 0px;
@@ -89,6 +88,12 @@ h4{
   color: #000000;
   margin: 10px;
  }
+ #secondLine{
+  height: 50%;
+ }
+ #LongOnes{
+  margin-top: -40%;
+ }
  .link{
   font-family: 'Roboto Serif', serif;
   margin-top: auto;
@@ -104,13 +109,6 @@ h4{
  .aboutUs:hover{
   color: #FB8500;
  border-bottom: 2px solid #FB8500 ;
-  }
-  .img{
-    width: 100%;
-  }
-  .img2{
-    width: 180%;
-
   }
  .iframeBackground {
   color: white;
@@ -322,8 +320,34 @@ button:hover{
   top: 0;
   margin-left:auto ;
 }
-
-
+.gallery{
+  background-color: #FB8500;
+  margin: auto;
+  width: 100%;
+  padding: 3px;
+}
+.firstPic{
+background-color: #FFFFFF;
+border-radius: 10px;
+width: 7rem;
+ margin: 5px;
+}
+.firstPic img{
+  border-radius: 10px;
+ width: 100%;
+}
+.firstPic p{
+  font-family: 'Roboto Serif', serif;
+  background-color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  width: 100%;
+  border-radius: 10px;
+}
+.setOfThree{
+  display: flex;
+  width: fit-content;
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -466,7 +490,6 @@ position: relative;
   .img{
     margin: auto;
     width: 100%;
-    height: 50vh;
   }
   .navbar{
     padding: 0px;

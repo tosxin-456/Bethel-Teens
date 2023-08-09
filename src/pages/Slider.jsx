@@ -12,15 +12,13 @@ import bake2 from '../assets/Bake3.jpg';
 import bakingTeens from '../assets/WhatsApp Image 2023-08-02 at 12.57.59.jpg';
 import picNic1 from '../assets/picnicTeens.jpg'
 import picNic2 from '../assets/picnicTeens2.jpg'
+import picNic3 from '../assets/picnicTeens7.jpg'
+
 import '../App.css'
+import Gallery from './gallery';
+
 
 const Slider = () => {
-  const images = [
-    teen1,
-    picNic1,
-    bakingTeens,
-  ];
-
   return (
     <Swiper
     modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -32,12 +30,16 @@ const Slider = () => {
     onSwiper={(swiper) => console.log(swiper)}
     onSlideChange={() => console.log('slide change')}
   >
+    <div>
+      
+    </div>
     <div className='galleryImg'>
     <SwiperSlide><img src={picNic2} className='img' alt="" /></SwiperSlide>
     <div className='galleryBackground'></div>
     <SwiperSlide><img src={bakingTeens} alt=""  className='img' /></SwiperSlide>
     <SwiperSlide><img src={picNic1} alt=""  className='img' /></SwiperSlide>
     <SwiperSlide><img src={bake2} alt=""  className='img' /></SwiperSlide>
+    <SwiperSlide><img src={picNic3} alt=""  className='img' /></SwiperSlide>
   </div>
   </Swiper>
   );
