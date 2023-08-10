@@ -91,9 +91,6 @@ h4{
  #secondLine{
   height: 50%;
  }
- #LongOnes{
-  margin-top: -40%;
- }
  .link{
   font-family: 'Roboto Serif', serif;
   margin-top: auto;
@@ -343,13 +340,14 @@ width: 70%;
   text-align: center;
   font-size: 20px;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 .setOfThree{
   display: flex;
   width: fit-content;
 }
 .swiper img{
+  max-height:18rem ;
   width: 100%;
 }
 .swiper-wrapper{
