@@ -131,6 +131,7 @@ h4{
 }
 section{
   overflow-y: auto;
+  overflow-x: unset;
   /* width: 10rem; */
   overflow-x: unset;
 }
@@ -547,4 +548,9 @@ position: relative;
     font-size: 14px;
     width: fit-content;
   }
+
+  /* #root {
+    width: 100%;
+    margin-inline: auto;
+  } */
  }
