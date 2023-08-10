@@ -231,7 +231,6 @@ input{
   margin-top: 15%;
   margin-left: auto;
   margin-right: auto;
-  /* background-color: #000000; */
 }
 
 iframe{
@@ -351,6 +350,11 @@ width: 70%;
 .swiper img{
   width: 100%;
 }
+.swiper-wrapper{
+  background-color: #FB8500;
+}
+
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
