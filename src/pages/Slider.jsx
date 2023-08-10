@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{useEffect ,useRef} from 'react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -15,9 +15,24 @@ import picNic3 from '../assets/picnicTeens7.jpg';
 import bake3 from '../assets/picNic9.jpg'
 import '../App.css';
 
+
 const Slider = ({ selectedImage }) => {
+  const swiperRef = useRef(null);
+
+  useEffect(() => {
+    if (swiperRef.current && selectedImage) {
+      const swiperInstance = swiperRef.current.swiper;
+      const slideIndex = swiperInstance.slides.findIndex(
+        (slide) => slide.querySelector('img').src === selectedImage
+      );
+      if (slideIndex !== -1) {
+        swiperInstance.slideTo(slideIndex);
+      }
+    }
+  }, [selectedImage]);
   return (
     <Swiper
+      ref={swiperRef}
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={10}
       slidesPerView={1}
@@ -26,25 +41,30 @@ const Slider = ({ selectedImage }) => {
       scrollbar={{ draggable: true }}
     >
     
-      <div className='galleryImg'>
+      <div className='galleryImg' >
+        {selectedImage && (
+          <SwiperSlide>
+            <img src={selectedImage} alt='' className='img' />
+          </SwiperSlide>
+        )}
         <SwiperSlide>
-          <img src={selectedImage || bake3} className='img' alt='' />
+          <img src={ bake3} className='img' alt='' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={selectedImage || picNic2} className='img' alt='' />
+          <img src={ picNic2} className='img' alt='' />
         </SwiperSlide>
         <div className='galleryBackground'></div>
         <SwiperSlide>
-          <img src={selectedImage|| bakingTeens  } alt='' className='img' />
+          <img src={ bakingTeens  } alt='' className='img' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={selectedImage || picNic1 } alt='' className='img' />
+          <img src={ picNic1 } alt='' className='img' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={selectedImage || bake2 } alt='' className='img' />
+          <img src={ bake2 } alt='' className='img' />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={selectedImage|| picNic3  } alt='' className='img' />
+        <SwiperSlide >
+          <img src={ picNic3  } alt='' className='img' />
         </SwiperSlide>
       </div>
     </Swiper>
