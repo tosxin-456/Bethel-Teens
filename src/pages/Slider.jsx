@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import picNic1 from '../assets/picNic6.jpg';
 import picNic2 from '../assets/picNic7.jpg';
-import bakingTeens from '../assets/bake3.jpg';
+import bakingTeens from '../assets/Bake3.jpg';
 import bake2 from '../assets/bake4.jpg';
 import picNic3 from '../assets/picnicTeens7.jpg';
 import bake3 from '../assets/picNic9.jpg'
