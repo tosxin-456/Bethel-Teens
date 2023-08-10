@@ -1,13 +1,12 @@
-import image1 from '../assets/picnicTeens4.jpg'
-import image2 from '../assets/Bake3.jpg'
-import image3 from '../assets/picnicTeens3.jpg'
+import image1 from '../assets/picNic1.jpg'
+import image2 from '../assets/bake1.jpg'
+import image3 from '../assets/picNic2.jpg'
 import image4 from '../assets/bake2.jpg'
-import image5 from '../assets/bake4.jpg'
-import image6 from '../assets/bake5.jpg'
-import image7 from '../assets/bake6.jpg'
-import image8 from '../assets/picnicTeens5.jpg'
-import image9 from '../assets/picnicTeens6.jpg'
-import image10 from '../assets/bake7.jpg'
+import image5 from '../assets/longBake1.jpg'
+import image6 from '../assets/picNic4.jpg'
+import image7 from '../assets/longBake2.jpg'
+import image8 from '../assets/picNic5.jpg'
+import image9 from '../assets/longBake3.jpg'
 import facebook from '../assets/Facebook.png'
 import instagram from '../assets/instagram.png'
 import youtube from '../assets/youtube.svg'
@@ -47,21 +46,21 @@ const Gallery = ({ setSelectedImage }) => {
             <p className='text'>Baking Lesson</p>
           </div>
           <div className='firstPic' id='secondLine'>
-            <img src={image8} alt=''  onClick={() => handleImageClick(image8)} />
+            <img src={image6} alt=''  onClick={() => handleImageClick(image6)} />
             <p className='text'>Wild-Life Park</p>
           </div>
         </div>
         <div className='setOfThree'>
           <div className='firstPic'>
-            <img src={image6} alt='' id='LongOnes'  onClick={() => handleImageClick(image6)} />
+            <img src={image7} alt='' id='LongOnes'  onClick={() => handleImageClick(image7)} />
             <p className='text'>Baking Lesson</p>
           </div>
           <div className='firstPic' id='secondLine'>
-            <img src={image9} alt=''  onClick={() => handleImageClick(image9)} />
+            <img src={image8} alt=''  onClick={() => handleImageClick(image8)} />
             <p className='text'>Picnic In Wild-Life Park</p>
           </div>
           <div className='firstPic'>
-            <img src={image10} alt='' id='LongOnes'  onClick={() => handleImageClick(image10)} />
+            <img src={image9} alt='' id='LongOnes'  onClick={() => handleImageClick(image9)} />
             <p className='text'>Baking Lesson</p>
           </div>
         </div>
