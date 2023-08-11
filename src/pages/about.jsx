@@ -11,12 +11,39 @@ import youtube from '../assets/youtube.svg'
 import auntyPeace from '../assets/aunty Peace.png'
 import Iconincisaac from '../assets/isaac.svg'
 import favouredFavor from '../assets/favoured favour.svg'
-
+import 'swiper/css';
+import 'swiper/css/effect-fade';
+import destine from '../assets/destine.png'
+import edehAndAda from '../assets/edeh and ada.jpg'
+import maavyon from '../assets/HomeMav.png'
+import "mdb-react-ui-kit/dist/css/mdb.min.css"
+import {
+  MDBCarousel,
+  MDBCarouselItem,
+} from 'mdb-react-ui-kit';
 
 const About = () => {
   return ( 
     <>
-    <img src={kidsImage} loading='lazy' className='kidImage' alt="" />
+       <div className='containerForImage'>
+    <MDBCarousel  fade >
+    <MDBCarouselItem
+     id='kidImage'
+     className='d-block'
+     itemId={1}
+    src={maavyon} />
+    <MDBCarouselItem
+    id='kidImage'
+    className=' d-block'
+    itemId={2}
+    src={edehAndAda} />
+    <MDBCarouselItem
+    id='kidImage'
+    className=' d-block'
+    itemId={3}
+    src={destine} />
+    </MDBCarousel>
+    </div>
   <div className='welcomeRemark'>
     <h1>
      About us

@@ -529,14 +529,12 @@ position: relative;
   .img{
     margin: auto;
     width: 100%;
-  }
-
-  .navbar{
-    padding: 0px;
-    position: relative;
+  }  
+  .navbar {
     z-index: 3;
     background-color: rgba(0, 0, 0, 0.24);
-  }
+}
+
   .logoWithWriteUp{
     margin: 0px;
     background-color: white;
@@ -545,7 +543,7 @@ position: relative;
    padding: 0px;
   }
   .logoWithWriteUp p{
-    padding: 1px;
+    padding: 2px;
     display: block;
   }
   #kidImage{
@@ -554,15 +552,18 @@ position: relative;
     margin-left: auto;
   }
   .logoName{
+    width: 100%;
     font-size: 14px;
   }
   h1{
     font-size:20px;
   }
   .home{
+    padding: 0px;
     color: white;
   }
   .aboutUs{
+    padding: 0px;
     color: white;
 
   }
