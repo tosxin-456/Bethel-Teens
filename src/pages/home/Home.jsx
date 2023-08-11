@@ -5,6 +5,10 @@ import '../../App.css'
 import facebook from '../../assets/Facebook.png'
 import instagram from '../../assets/instagram.png'
 import aboutUsImg from '../../assets/teensGroup.png'
+import aboutUsImg2 from '../../assets/about us image3.png'
+import aboutUsImg3 from '../../assets/about us image2.png'
+import aboutUsImg4 from '../../assets/about us image7.png'
+
 import React, { useState, useEffect } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade } from 'swiper/modules';
@@ -54,7 +58,28 @@ const Home = () => {
   <div className='aboutUsHeaderAndText'>
   <h2>A bit about us</h2>
   <div className='aboutUsTextAndImage'>
-  <img src={aboutUsImg} alt="" loading='lazy' />
+  <MDBCarousel  fade >
+    <MDBCarouselItem
+     id='kidImage'
+     className='d-block'
+     itemId={1}
+    src={aboutUsImg} />
+    <MDBCarouselItem
+    id='kidImage'
+    className=' d-block'
+    itemId={2}
+    src={aboutUsImg2} />
+    <MDBCarouselItem
+    id='kidImage'
+    className=' d-block'
+    itemId={3}
+    src={aboutUsImg3} />
+       <MDBCarouselItem
+    id='kidImage'
+    className=' d-block'
+    itemId={3}
+    src={aboutUsImg4} />
+    </MDBCarousel>
   <div>
   <p>Our church is designed with teenagers in mind! We aim to create a space where you feel heard, understood, and valued.</p> 
   <p>Our teachings are relevant, relatable, and designed to address the real-life challenges and questions that teenagers face in today's world.</p>
