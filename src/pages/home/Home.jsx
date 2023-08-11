@@ -1,32 +1,47 @@
 import churchLogo from '../../assets/fa-solid_church.svg'
-import kidsImage from '../../assets/kidsImage.svg'
-import secondImge from '../../assets/image2.png'
+import edehAndAda from '../../assets/edeh and ada.jpg'
+import maavyon from '../../assets/HomeMav.png'
 import '../../App.css'
 import facebook from '../../assets/Facebook.png'
 import instagram from '../../assets/instagram.png'
 import aboutUsImg from '../../assets/teensGroup.png'
 import React, { useState, useEffect } from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectFade } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/effect-fade';
 import youtube from '../../assets/youtube.svg'
-import teens1 from '../../assets/teensGroup.png'
+import destine from '../../assets/destine.png'
+import "mdb-react-ui-kit/dist/css/mdb.min.css"
+import {
+  MDBCarousel,
+  MDBCarouselItem,
+} from 'mdb-react-ui-kit';
+
 
 const Home = () => {
-  const images = [
-    {kidsImage},
-    {secondImge}
-  ];
-  const [currentImage, setCurrentImage] = useState(0)
-  useEffect(()=>{
-    const changeImage = ()=>{
-      setCurrentImage((imagesIndex)=>{
-      return  imagesIndex=== images.length-1? 0:imagesIndex+1
-      })
-    }
-    const interval = setInterval(changeImage,10000)
-    return()=>clearInterval(interval)
-  },[images])
   return (
     <>
-      <img src={kidsImage}  className='kidImage' alt="" />
+    <div className='containerForImage'>
+    <MDBCarousel  fade >
+    <MDBCarouselItem
+     id='kidImage'
+     className='d-block'
+     itemId={1}
+    src={edehAndAda} />
+    <MDBCarouselItem
+    id='kidImage'
+    className=' d-block'
+    itemId={2}
+    src={maavyon} />
+    <MDBCarouselItem
+    id='kidImage'
+    className=' d-block'
+    itemId={3}
+    src={destine} />
+    </MDBCarousel>
+    </div>
+      {/* <img src={kidsImage}  id='kidImage' alt="" /> */}
   <div className='welcomeRemark'>
     <h1>
       Bethel <br /> Teens Club

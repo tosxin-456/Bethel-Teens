@@ -301,6 +301,14 @@ button:hover{
   background-color: #FB8500;
   ;
 }
+.containerForImage{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-left: auto;
+  z-index: 2;
+  padding: 0;
+}
 .logoWithWriteUp{
   display: flex;
   width: 30%;
@@ -328,6 +336,15 @@ button:hover{
   margin: auto;
   width: fit-content;
   padding: 3px;
+}
+.d-block{
+  width: 51%;
+  padding: 0;
+  position: relative;
+  right: 0;
+  top: 0;
+  margin-left: auto;
+  z-index: 2;
 }
 .firstPic{
 background-color: #FFFFFF;
@@ -457,7 +474,7 @@ position: relative;
   .swiper{
     margin-left: auto;
     margin-right: auto;
-    /* width: fit-content; */
+    width: fit-content;
     background-color: #805c5c;
     
   }
@@ -513,11 +530,12 @@ position: relative;
     margin: auto;
     width: 100%;
   }
+
   .navbar{
     padding: 0px;
     position: relative;
     z-index: 3;
-    background-color: rgba(0, 0, 0, 0.34);
+    background-color: rgba(0, 0, 0, 0.24);
   }
   .logoWithWriteUp{
     margin: 0px;
@@ -530,9 +548,10 @@ position: relative;
     padding: 1px;
     display: block;
   }
-  .kidImage{
+  #kidImage{
     padding: 0px;
-    width: 53%;
+    width: 53% ;
+    margin-left: auto;
   }
   .logoName{
     font-size: 14px;
