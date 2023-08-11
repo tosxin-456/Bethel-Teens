@@ -91,6 +91,12 @@ h4{
  #secondLine{
   height: 50%;
  }
+
+ .lastSetOfThree .baking {
+  margin-block-start: 0rem;
+  /* color: red; */
+ }
+
  .link{
   font-family: 'Roboto Serif', serif;
   margin-top: auto;
@@ -385,6 +391,9 @@ width: 70%;
   }
   .logoWithWriteUp{
     width: fit-content;
+  }
+  #secondLine{
+  height: 20rem;
   }
   .firstPic p{
     font-size: 12px;
