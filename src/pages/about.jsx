@@ -3,7 +3,7 @@ import '../App.css'
 import React, { useState, useEffect } from 'react'
 import kidsImage from '../assets/destine.svg'
 import teacher from '../assets/teacher.svg'
-import emma from '../assets/emma.svg'
+import emma from '../assets/emma.png'
 import facebook from '../assets/Facebook.png'
 import instagram from '../assets/instagram.png'
 import aboutUsImg from '../assets/about us image.png'
@@ -105,7 +105,7 @@ const About = () => {
    <img src={emma} alt="" />
      <div className='textAboutTeacher'>
      <h4>Extravagant Emma(Music direct.)</h4>
-      <p>Emma Chomini is a 19 year old that believes in Christ and is dedicating his time to study God’s word in other to implement them to help improve his way of living.</p>
+      <p>Extravagant Emma, a spirited Christian teen, radiates faith through his exuberance. His vibrant devotion and compassionate heart inspire all to embrace love and grace..</p>
      </div>
    </div>
    <div className='teacherProfile'>
