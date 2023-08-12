@@ -118,7 +118,7 @@ const Home = () => {
     <input type="text" className='message' placeholder='Enter Your Message Here...' />
    </form>
    <div className='btnDiv'>
-   <button id='btn'>send message</button>
+   <button id='btn'>Send message</button>
    </div>
    <footer className='footerNav'>
     <div>

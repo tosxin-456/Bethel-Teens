@@ -259,7 +259,7 @@ margin-left:1.5rem ;
 font-weight: 500;
 }
 button{
-padding: 5px 5px;
+padding: 11px 11px;
 border: 0;
 background: #023047;
 color: white;
@@ -360,7 +360,6 @@ display: flex;
 width: fit-content;
 }
 .swiper img{
-max-height:18rem ;
 width: 100%;
 }
 .swiper-wrapper{
@@ -398,6 +397,13 @@ overflow-x: unset;
   margin-bottom: 10px;
   margin-top: 10px;
   /* border-radius: 50%; */
+}
+.footerName {
+  text-align: center;
+  width: fit-content;
+}
+.icons{
+  width: fit-content;
 }
 @media screen and (min-width:801px) and (max-width:995px) {
 .navbar{
@@ -511,7 +517,7 @@ position: relative;
   margin: 3px;
 }
 .footerNav{
-  width: 100vw;
+  width: 100%;
 }
 button{
   margin: 3% 5%;
