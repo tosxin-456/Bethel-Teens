@@ -61,22 +61,22 @@ const Home = () => {
   <div className='aboutUsImage'>
   <MDBCarousel  fade >
     <MDBCarouselItem
-     id='kidImage'
+     id='kidImages'
      className='d-block'
      itemId={1}
     src={aboutUsImg} />
     <MDBCarouselItem
-    id='kidImage'
+    id='kidImages'
     className=' d-block'
     itemId={2}
     src={aboutUsImg2} />
     <MDBCarouselItem
-    id='kidImage'
+    id='kidImages'
     className=' d-block'
     itemId={3}
     src={aboutUsImg3} />
        <MDBCarouselItem
-    id='kidImage'
+    id='kidImages'
     className=' d-block'
     itemId={3}
     src={aboutUsImg4} />
