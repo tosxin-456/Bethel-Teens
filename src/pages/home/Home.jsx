@@ -112,8 +112,8 @@ const Home = () => {
   </div>
    <form action="submit">
     <div className='contactDetails'>
-    <input type="text" placeholder='Your email adress'/>
-    <input type="text" placeholder='Your Phone Number' />
+    <input id='email' type="text" placeholder='Your email adress'/>
+    <input type="text" id='number' placeholder='Your Phone Number' />
     </div>
     <input type="text" className='message' placeholder='Enter Your Message Here...' />
    </form>
