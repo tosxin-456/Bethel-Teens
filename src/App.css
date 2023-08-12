@@ -453,6 +453,15 @@ margin: auto ;
   width: fit-content;
   margin: auto;
 }
+.swiper{
+  max-height:17rem ;
+}
+.galleryImg{
+  max-width: 100%; /* Ensure images don't exceed their parent container's width */
+  max-height: 100%; /* Ensure images don't exceed their parent container's height */
+  width: auto;
+  height: auto
+}
 @media screen and (min-width:801px) and (max-width:995px) {
 .navbar{
   background-color: white;
@@ -541,7 +550,7 @@ position: relative;
   margin-left: auto;
   margin-right: auto;
   /* width: fit-content; */
-  background-color: #805c5c;
+  background-color: #FB8500;
   
 }
 .swiper-button-prev{
