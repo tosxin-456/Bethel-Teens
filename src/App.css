@@ -454,7 +454,7 @@ margin: auto ;
   margin: auto;
 }
 .swiper{
-  max-height:17rem ;
+  max-height:50rem ;
 }
 .galleryImg{
   max-width: 100%; /* Ensure images don't exceed their parent container's width */
@@ -469,6 +469,9 @@ margin: auto ;
   display: flex;
   padding: 5px;
   width: 100%;
+}
+.swiper{
+  max-height:30rem ;
 }
 .navbar p{
   display: none;
@@ -495,6 +498,9 @@ section{
 overflow: auto;
 height: 25rem;  
 width: fit-content;
+}
+.swiper{
+  max-height:30rem ;
 }
 .firstPic p{
 font-size: 12px;
@@ -709,5 +715,8 @@ h1{
 }
 .aboutUsHeaderAndText{
   margin-left: auto;
+}
+.swiper{
+  max-height:17rem ;
 }
 }
