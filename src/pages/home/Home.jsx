@@ -58,6 +58,7 @@ const Home = () => {
   <div className='aboutUsHeaderAndText'>
   <h2>A bit about us</h2>
   <div className='aboutUsTextAndImage'>
+  <div className='aboutUsImage'>
   <MDBCarousel  fade >
     <MDBCarouselItem
      id='kidImage'
@@ -80,6 +81,7 @@ const Home = () => {
     itemId={3}
     src={aboutUsImg4} />
     </MDBCarousel>
+    </div>
   <div>
   <p>Our church is designed with teenagers in mind! We aim to create a space where you feel heard, understood, and valued.</p> 
   <p>Our teachings are relevant, relatable, and designed to address the real-life challenges and questions that teenagers face in today's world.</p>
@@ -92,15 +94,15 @@ const Home = () => {
   <h2>Contact us</h2>
   <div className='map'>
         <div className='iframeBackground'>
-          <div>
+          <div className='one'>
             <p className='header'>Address</p>
             <p className='detailS'>Barakin Naraguta</p>
           </div>
-          <div>
+          <div className='two'>
             <p className='header'>Meeting time</p>
             <p className='detailS'>7:15-8:30 AM</p>
           </div>
-          <div>
+          <div className='three'>
             <p className='header'>Telephone</p> 
              <p className='detailS'>08037308709</p>
           </div>

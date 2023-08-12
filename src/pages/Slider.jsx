@@ -49,7 +49,7 @@ const Slider = ({ selectedImage }) => {
           </SwiperSlide>
         )}
         <SwiperSlide>
-          <img src={ bake3} className='img' alt='' />
+          <img src={ bake3 } className='img' alt='' />
         </SwiperSlide>
         <SwiperSlide>
           <img src={ picNic2} className='img' alt='' />
