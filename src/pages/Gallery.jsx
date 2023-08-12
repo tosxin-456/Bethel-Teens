@@ -25,7 +25,7 @@ const Gallery = ({ setSelectedImage }) => {
         <div className='setOfThree'>
           <div className='firstPic'>
             <img src={image1} alt='' onClick={() => handleImageClick(image1)} />
-            <p className='text'>Picnic In Wild-Life Park</p>
+            <p className='text'> Wild-Life Park</p>
           </div>
           <div className='firstPic'>
             <img src={image2} alt='' onClick={() => handleImageClick(image2)} />
@@ -33,7 +33,7 @@ const Gallery = ({ setSelectedImage }) => {
           </div>
           <div className='firstPic'>
             <img src={image3} alt=''  onClick={() => handleImageClick(image3)} />
-            <p className='text'>Picnic In Wild-Life Park</p>
+            <p className='text'> Wild-Life Park</p>
           </div>
         </div>
         <div className='setOfThree'>
