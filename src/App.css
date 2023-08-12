@@ -255,9 +255,7 @@ margin-left:1.5rem ;
 font-weight: 500;
 }
 button{
-margin: 3% 5%;
-padding: 11px 21px;
-border-radius: 5px;
+padding: 5px 5px;
 border: 0;
 background: #023047;
 color: white;
@@ -383,8 +381,20 @@ overflow-x: unset;
   margin-right: auto;
 
 }
-
-
+.footerNameAndLogo img{
+  width: 20%;
+  height: 15%;
+}
+.footerName{
+  margin: auto;
+}
+.btnDiv{
+  width: 26%;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
 @media screen and (min-width:801px) and (max-width:995px) {
 .navbar{
   background-color: white;
@@ -531,8 +541,15 @@ button{
 .navbar{
   padding: 0px;
   position: relative;
-  z-index: 2;
+  z-index: 3;
   background-color: rgba(0, 0, 0, 0.34);
+}
+.contactDetails{
+  margin: auto;
+}
+.contactDetails input{
+  width: 90%;
+  box-shadow: 0.5px 1px 3px 0.4px rgba(0, 0, 0, 0.5)
 }
 .aboutUsTextAndImage{
   width: 100%;
@@ -575,5 +592,11 @@ h1{
 .link{
   font-size: 14px;
   width: fit-content;
+}
+.btnDiv{
+  width: 45%;
+}
+.footerNameAndLogo img {
+  width: 15%;
 }
 }

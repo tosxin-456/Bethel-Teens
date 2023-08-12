@@ -116,8 +116,10 @@ const Home = () => {
     <input type="text" placeholder='Your Phone Number' className='number' />
     </div>
     <input type="text" className='message' placeholder='Enter Your Message Here...' />
-   <button>Send message</button>
    </form>
+   <div className='btnDiv'>
+   <button>Send message</button>
+   </div>
    <footer className='footerNav'>
     <div>
     <div className='footerNameAndLogo'>
