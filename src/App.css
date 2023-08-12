@@ -617,4 +617,16 @@ h1{
 .icons{
   width: fit-content;
 }
+.iframeBackground .one{
+  text-align: start;
+}
+.iframeBackground .one p{
+  margin-left: 0px;
+}
+.iframeBackground .two{
+  text-align: start;
+}
+.iframeBackground .three{
+  text-align: start;
+}
 }
