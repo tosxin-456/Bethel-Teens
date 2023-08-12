@@ -545,9 +545,10 @@ button{
 .navbar{
   padding: 0px;
   position: relative;
-  z-index: 3;
-  background-color: rgba(0, 0, 0, 0.34);
+  z-index: 999;
+  /* background-color: rgba(0, 0, 0, 0.34); */
 }
+
 .contactDetails{
   width: 90%;
   margin-right: auto;
@@ -567,14 +568,14 @@ button{
 }
 .logoWithWriteUp{
   margin: 0px;
-  background-color: white;
+  /* background-color: white; */
 }
 .logoWithWriteUp img{
  padding: 0px;
 }
 .logoWithWriteUp p{
   padding: 1px;
-  display: block;
+  display: none;
 }
 .kidImage{
   padding: 0px;
@@ -587,10 +588,10 @@ h1{
   font-size:20px;
 }
 .home{
-  color: white;
+  color: black;
 }
 .aboutUs{
-  color: white;
+  color: black;
 
 }
 .welcomeRemark h1{
@@ -606,5 +607,4 @@ h1{
 .footerNameAndLogo img {
   width: 15%;
 }
-
 }
