@@ -32,6 +32,7 @@ const Slider = ({ selectedImage }) => {
   }, [selectedImage]);
   return (
     <>
+    <div className='galleryBackground'>
         <Swiper
       ref={swiperRef}
       modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -69,6 +70,7 @@ const Slider = ({ selectedImage }) => {
         </SwiperSlide>
       </div>
     </Swiper>
+    </div>
     </>
   );
 };

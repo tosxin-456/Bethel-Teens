@@ -454,6 +454,7 @@ margin: auto ;
   margin: auto;
 }
 .swiper{
+  width: 45rem;
   max-height:50rem ;
 }
 .galleryImg{
@@ -461,6 +462,9 @@ margin: auto ;
   max-height: 100%; /* Ensure images don't exceed their parent container's height */
   width: auto;
   height: auto
+}
+.galleryBackground{
+  background-color: #FB8500;
 }
 @media screen and (min-width:801px) and (max-width:995px) {
 .navbar{
@@ -492,6 +496,9 @@ margin: auto ;
 .aboutUsImage{
   width: 100%;
 }
+.swiper{
+  width: 100%;
+ }
 }
 @media screen and (max-width:800px) {
 section{
@@ -500,6 +507,7 @@ height: 25rem;
 width: fit-content;
 }
 .swiper{
+  width: 100%;
   max-height:30rem ;
 }
 .firstPic p{
@@ -717,6 +725,7 @@ h1{
   margin-left: auto;
 }
 .swiper{
+  width: 100%;
   max-height:17rem ;
 }
 }
