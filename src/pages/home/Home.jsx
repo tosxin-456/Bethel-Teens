@@ -112,13 +112,13 @@ const Home = () => {
   </div>
    <form action="submit">
     <div className='contactDetails'>
-    <input type="text" placeholder='Your email adress' />
-    <input type="text" placeholder='Your Phone Number' className='number' />
+    <input type="text" placeholder='Your email adress'/>
+    <input type="text" placeholder='Your Phone Number' />
     </div>
     <input type="text" className='message' placeholder='Enter Your Message Here...' />
    </form>
    <div className='btnDiv'>
-   <button>Send message</button>
+   <button id='btn'>send message</button>
    </div>
    <footer className='footerNav'>
     <div>

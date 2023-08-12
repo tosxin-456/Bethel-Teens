@@ -212,22 +212,24 @@ margin-left: 5%;
 width:89% ;
 border: 0;
 /* height: 100px; */
-box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.5);
+box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5);
 border-radius: 5px;
 outline: none;
+}
+.contactDetails{
+  margin-left: auto;
+  width: 80%;
 }
 .contactDetails input{
 padding: 10px;
-margin-top: 5%;
-margin-left: 5%;
-margin-top: 3%;
-width:39% ;
+margin-left: 1px;
+width:40% ;
 border: 0;
 border-radius: 5px;
-outline: none;
+box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.2);
 }
 input{
-box-shadow: 0.5px 0.2px 0.4px 0.4px rgba(0, 0, 0, 0.5);
+box-shadow: 0.5px 0.2px 0.1px 0.1px rgba(0, 0, 0, 0.5);
 }
 .aboutUsTextAndImage p{
 margin: auto;
@@ -242,7 +244,9 @@ margin-top: 15%;
 margin-left: auto;
 margin-right: auto;
 }
-
+#btn{
+  border-radius: 10px;
+}
 iframe{
 margin: auto;
 background-color: #000000;
@@ -389,11 +393,11 @@ overflow-x: unset;
   margin: auto;
 }
 .btnDiv{
-  width: 26%;
+  width: 90%;
   margin: auto;
   margin-bottom: 10px;
   margin-top: 10px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 @media screen and (min-width:801px) and (max-width:995px) {
 .navbar{
@@ -545,11 +549,14 @@ button{
   background-color: rgba(0, 0, 0, 0.34);
 }
 .contactDetails{
-  margin: auto;
+  width: 90%;
+  margin-right: auto;
 }
 .contactDetails input{
-  width: 90%;
-  box-shadow: 0.5px 1px 3px 0.4px rgba(0, 0, 0, 0.5)
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  /* box-shadow: 0.2px 0.6px 4px 1px rgba(0, 0, 0, 0.5) */
 }
 .aboutUsTextAndImage{
   width: 100%;
@@ -594,9 +601,10 @@ h1{
   width: fit-content;
 }
 .btnDiv{
-  width: 45%;
+  width: 90%;
 }
 .footerNameAndLogo img {
   width: 15%;
 }
+
 }
