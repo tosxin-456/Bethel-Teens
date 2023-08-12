@@ -115,7 +115,7 @@ const Home = () => {
     <input id='email' type="text" placeholder='Your email adress'/>
     <input type="text" id='number' placeholder='Your Phone Number' />
     </div>
-    <input type="text" className='message' placeholder='Enter Your Message Here...' />
+    <textarea id="multiline-input" rows="4" cols="50" className='message'  placeholder='Enter Your Message Here...'></textarea>
    </form>
    <div className='btnDiv'>
    <button id='btn'>Send message</button>
