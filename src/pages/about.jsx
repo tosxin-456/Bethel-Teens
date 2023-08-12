@@ -12,10 +12,12 @@ import auntyPeace from '../assets/aunty Peace.png'
 import Iconincisaac from '../assets/isaac.svg'
 import favouredFavor from '../assets/favoured favour.svg'
 import 'swiper/css';
+import hands from '../assets/open hands.png'
 import 'swiper/css/effect-fade';
 import destine from '../assets/destine.png'
 import edehAndAda from '../assets/edeh and ada.jpg'
 import maavyon from '../assets/HomeMav.png'
+import account from '../assets/Account.png'
 import "mdb-react-ui-kit/dist/css/mdb.min.css"
 import {
   MDBCarousel,
@@ -119,14 +121,20 @@ const About = () => {
    </section>
   </div>
   </div>
-  <div className='contactUsHeader'>
+    <div className='JoinUs'>
   <h2>Join us</h2>
- 
+  <div id='img'>
+  <img src={hands} alt="" className='joinUsImg'  />
+  <p>Embark on a transformative journey with our Christian team. Experience fellowship, spiritual growth, and impactful outreach as we unite in faith to make a positive difference in the world. Join us today!</p>
   </div>
+    </div>
+    <div className='supportUs'>
+    <h2>Support the Developers</h2>
+  <img src={account} alt="" />
+    </div>
    <footer className='footerNav'>
     <div>
     <div className='footerNameAndLogo'>
-    {/* <img src="https://res.cloudinary.com/dba1aezsn/image/upload/v1690495972/chapel_logo_cph2jz.png" className='footerLogo' alt="" /> */}
     <p className='footerName'>The Chapel of Faith</p>
     </div>
     <div className='icons'>

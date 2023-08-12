@@ -18,6 +18,12 @@ width: 50%;
 .youtube{
 padding: 0px;
 }
+h1{
+  color: #000000;
+}
+h2{
+  color: #000000;
+}
 .navbar{
 background-color: white;
 box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.5);
@@ -405,6 +411,35 @@ overflow-x: unset;
 .icons{
   width: fit-content;
 }
+.JoinUs h2{
+  color: #000000;
+  margin: auto;
+  width: fit-content;
+}
+.JoinUs {
+  margin: auto;
+  text-align: center;
+  width: 60%;
+}
+ .joinUsImg{
+  width: 20%;
+}
+#img{
+margin: auto ;
+  width: fit-content;
+}
+.supportUs{
+  width: 80%;
+  margin: 5% auto ;
+}
+.supportUs img{
+  width: 100%;
+}
+.supportUs h2{
+  font-size: 19px;
+  width: fit-content;
+  margin: auto;
+}
 @media screen and (min-width:801px) and (max-width:995px) {
 .navbar{
   background-color: white;
@@ -598,7 +633,7 @@ h1{
 }
 .aboutUs{
   color: black;
-
+ margin: 5px;
 }
 .welcomeRemark h1{
   font-size: 1.9rem;
@@ -628,5 +663,18 @@ h1{
 }
 .iframeBackground .three{
   text-align: start;
+}
+.joinUsImg{
+  width: 5rem;
+}
+#img{
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+#img p{
+  margin: auto;
+  width: 80%;
+  font-size: 13px;
 }
 }
