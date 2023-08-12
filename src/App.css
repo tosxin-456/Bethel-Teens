@@ -384,20 +384,7 @@ overflow-x: unset;
 
 }
 
-@keyframes logo-spin {
-from {
-  transform: rotate(0deg);
-}
-to {
-  transform: rotate(360deg);
-}
-}
 
-@media (prefers-reduced-motion: no-preference) {
-a:nth-of-type(2) .logo {
-  animation: logo-spin infinite 20s linear;
-}
-}
 @media screen and (min-width:801px) and (max-width:995px) {
 .navbar{
   background-color: white;
@@ -463,7 +450,7 @@ position: relative;
   margin-top: 5%;
   width: 80%;
 }
-.aboutUsTextAndImage img{
+.aboutUsImage {
  margin: auto;
  width: 85%;
 }
@@ -544,8 +531,15 @@ button{
 .navbar{
   padding: 0px;
   position: relative;
-  z-index: 999;
+  z-index: 2;
   background-color: rgba(0, 0, 0, 0.34);
+}
+.aboutUsTextAndImage{
+  width: 100%;
+}
+.aboutUsImage{
+  margin: auto;
+  width: 80%;
 }
 .logoWithWriteUp{
   margin: 0px;
