@@ -67,11 +67,11 @@ const Gallery = ({ setSelectedImage }) => {
       </div>
       <footer className='footerNav'>
         <div className='footerNameAndLogo'>
-          <img
+          {/* <img
             src='https://res.cloudinary.com/dba1aezsn/image/upload/v1690495972/chapel_logo_cph2jz.png'
             className='footerLogo'
             alt=''
-          />
+          /> */}
           <p className='footerName'>The Chapel of Faith</p>
         </div>
         <div className='icons'>

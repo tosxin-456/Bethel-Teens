@@ -604,7 +604,11 @@ h1{
 .btnDiv{
   width: 90%;
 }
-.footerNameAndLogo img {
-  width: 15%;
+.footerName {
+  text-align: center;
+  width: fit-content;
+}
+.icons{
+  width: fit-content;
 }
 }
