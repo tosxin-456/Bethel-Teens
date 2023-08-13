@@ -16,6 +16,8 @@ import hands from '../assets/open hands.png'
 import 'swiper/css/effect-fade';
 import destine from '../assets/destine.png'
 import johnny from '../assets/johnny.png'
+import jonah from '../assets/jonathan.png'
+
 import vicTor from '../assets/victor.png'
 import miracle from '../assets/miracle.png'
 import Abah from '../assets/isaacAbah.png'
@@ -125,6 +127,13 @@ const About = () => {
      <div className='textAboutTeacher'>
      <h4>Ambitious Ada</h4>
       <p>Ambitious Ada is a force of determination. With unwavering focus and relentless drive, she sets her sights on lofty goals, breaking barriers and inspiring others with her unyielding pursuit of excellence.</p>
+     </div>
+   </div>
+   <div className='teacherProfile'>
+   <img src={jonah} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Jocular Jonathan</h4>
+      <p>Jocular Jonathan infuses every moment with his playful spirit. His witty remarks and infectious laughter create a joyful atmosphere, making him the life of any gathering and a true source of mirth.</p>
      </div>
    </div>
    <div className='teacherProfile'>
