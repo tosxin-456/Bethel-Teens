@@ -21,7 +21,7 @@ import miracle from '../assets/miracle.png'
 import Abah from '../assets/isaacAbah.png'
 import twins from '../assets/twins.png'
 import tosan from'../assets/tosan.png'
-import Peace from '../assets/AuntyPeaceandPeace.png'
+import destine2 from '../assets/destine2.png'
 import isaacAndMiracle from '../assets/isaacAndMiracle.png'
 import account from '../assets/Account.png'
 import "mdb-react-ui-kit/dist/css/mdb.min.css"
@@ -60,7 +60,7 @@ const About = () => {
     id='kidImage'
     className='d-block'
     itemId={5}
-    src={Peace}
+    src={destine2}
     />
     </MDBCarousel>
     </div>
