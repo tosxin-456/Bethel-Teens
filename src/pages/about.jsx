@@ -17,6 +17,7 @@ import 'swiper/css/effect-fade';
 import destine from '../assets/destine.png'
 import johnny from '../assets/johnny.png'
 import vicTor from '../assets/victor.png'
+import miracle from '../assets/miracle.png'
 import Abah from '../assets/isaacAbah.png'
 import twins from '../assets/twins.png'
 import tosan from'../assets/tosan.png'
@@ -110,7 +111,13 @@ const About = () => {
      <h4>Favoured Favour (Vice. President)</h4>
       <p>Favoured Favour, a spirited teen, radiates positivity and kindness. Empowering others with a contagious smile, she embraces challenges, spreading joy and inspiring those around her with her incredible resilience and empathy.</p>
      </div>
-     
+   </div>
+   <div className='teacherProfile'>
+   <img src={miracle} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Mirthful Miracle</h4>
+      <p> Miracle, radiates infectious joy wherever she goes. Her presence seems to turn ordinary moments into extraordinary ones, leaving a trail of laughter and happiness behind.</p>
+     </div>
    </div>
    <div className='teacherProfile'>
    <img src={johnny} alt="" />
