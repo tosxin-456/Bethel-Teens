@@ -15,6 +15,7 @@ import 'swiper/css';
 import hands from '../assets/open hands.png'
 import 'swiper/css/effect-fade';
 import destine from '../assets/destine.png'
+import johnny from '../assets/johnny.png'
 import vicTor from '../assets/victor.png'
 import Abah from '../assets/isaacAbah.png'
 import twins from '../assets/twins.png'
@@ -112,10 +113,10 @@ const About = () => {
      
    </div>
    <div className='teacherProfile'>
-   <img src={favouredFavor} alt="" />
+   <img src={johnny} alt="" />
      <div className='textAboutTeacher'>
-     <h4>Favoured Favour (Vice. President)</h4>
-      <p>Favoured Favour, a spirited teen, radiates positivity and kindness. Empowering others with a contagious smile, she embraces challenges, spreading joy and inspiring those around her with her incredible resilience and empathy.</p>
+     <h4>Jaunty John</h4>
+      <p>Jaunty John epitomizes vibrant charisma in every step. On and off the court, his confident demeanor and stylish flair illuminate the atmosphere, inspiring positivity and capturing hearts effortlessly.</p>
      </div>
      
    </div>
