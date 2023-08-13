@@ -27,6 +27,7 @@ import ada from'../assets/ada.png'
 import godwin from '../assets/Godwin.png'
 import destine2 from '../assets/destine2.png'
 import pedi from '../assets/pedi.png'
+import peret from '../assets/peret.png'
 import isaacAndMiracle from '../assets/isaacAndMiracle.png'
 import account from '../assets/Account.png'
 import "mdb-react-ui-kit/dist/css/mdb.min.css"
@@ -139,10 +140,10 @@ const About = () => {
      </div>
    </div>
    <div className='teacherProfile'>
-   <img src={godwin} alt="" />
+   <img src={peret} alt="" />
      <div className='textAboutTeacher'>
-     <h4>Gentle Godwin</h4>
-      <p>Gentle Godwin embodies kindness and compassion. His soothing demeanor and considerate actions create a serene presence, bringing comfort and understanding to those around him.</p>
+     <h4>Patient Peret</h4>
+      <p>Patient Peret exemplifies unwavering calmness. With a composed demeanor and understanding nature, they navigate challenges with tranquility, inspiring others through their remarkable composure and empathy.</p>
      </div>
    </div>
    <div className='teacherProfile'>
