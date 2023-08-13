@@ -10,7 +10,7 @@ import aboutUsImg from '../assets/about us image.png'
 import youtube from '../assets/youtube.svg'
 import auntyPeace from '../assets/aunty Peace.png'
 import Iconincisaac from '../assets/isaac.svg'
-import favouredFavor from '../assets/favoured favour.svg'
+import favouredFavor from '../assets/favoured favour.png'
 import 'swiper/css';
 import hands from '../assets/open hands.png'
 import 'swiper/css/effect-fade';
