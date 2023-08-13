@@ -26,6 +26,7 @@ import tosan from'../assets/tosan.png'
 import ada from'../assets/ada.png'
 import godwin from '../assets/Godwin.png'
 import destine2 from '../assets/destine2.png'
+import pedi from '../assets/pedi.png'
 import isaacAndMiracle from '../assets/isaacAndMiracle.png'
 import account from '../assets/Account.png'
 import "mdb-react-ui-kit/dist/css/mdb.min.css"
@@ -124,10 +125,24 @@ const About = () => {
      </div>
    </div>
    <div className='teacherProfile'>
+   <img src={pedi} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Peaceful Pedi</h4>
+      <p>Peaceful Pedi radiates tranquility and serenity. With a calm presence and gentle demeanor, they create an atmosphere of harmony, making others feel at ease in their presence.</p>
+     </div>
+   </div>
+   <div className='teacherProfile'>
    <img src={miracle} alt="" />
      <div className='textAboutTeacher'>
      <h4>Mirthful Miracle</h4>
       <p> Miracle, radiates infectious joy wherever she goes. Her presence seems to turn ordinary moments into extraordinary ones, leaving a trail of laughter and happiness behind.</p>
+     </div>
+   </div>
+   <div className='teacherProfile'>
+   <img src={godwin} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Gentle Godwin</h4>
+      <p>Gentle Godwin embodies kindness and compassion. His soothing demeanor and considerate actions create a serene presence, bringing comfort and understanding to those around him.</p>
      </div>
    </div>
    <div className='teacherProfile'>
