@@ -17,7 +17,7 @@ import 'swiper/css/effect-fade';
 import destine from '../assets/destine.png'
 import johnny from '../assets/johnny.png'
 import jonah from '../assets/jonathan.png'
-
+import michael from '../assets/michael.png'
 import vicTor from '../assets/victor.png'
 import miracle from '../assets/miracle.png'
 import Abah from '../assets/isaacAbah.png'
@@ -142,7 +142,13 @@ const About = () => {
      <h4>Jaunty John</h4>
       <p>Jaunty John epitomizes vibrant charisma in every step. On and off the court, his confident demeanor and stylish flair illuminate the atmosphere, inspiring positivity and capturing hearts effortlessly.</p>
      </div>
-     
+   </div>
+   <div className='teacherProfile'>
+   <img src={michael} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Meritorious Michael</h4>
+      <p>Meritocratic Michael stands out through his exceptional achievements. His dedication, intelligence, and hard work consistently propel him toward success, earning admiration and inspiring others to reach for excellence.</p>
+     </div>
    </div>
   <div className='teacherProfile'>
    <img src={emma} alt="" />
