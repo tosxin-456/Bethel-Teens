@@ -18,6 +18,7 @@ import destine from '../assets/destine.png'
 import vicTor from '../assets/victor.png'
 import Abah from '../assets/isaacAbah.png'
 import twins from '../assets/twins.png'
+import tosan from'../assets/tosan.png'
 import Peace from '../assets/AuntyPeaceandPeace.png'
 import isaacAndMiracle from '../assets/isaacAndMiracle.png'
 import account from '../assets/Account.png'
@@ -79,15 +80,15 @@ const About = () => {
    <div className='teacherProfile'>
    <img src={auntyPeace} alt="" />
      <div className='textAboutTeacher'>
-     <h4> Peaceful Peace(Leader)</h4>
+     <h4> Prosperous Peace</h4>
       <p>Aunty Peace, gracefully imparts timeless wisdom with kindness, fostering harmony and unity, while guiding others to embrace love, compassion, and understanding in their lives.</p>
      </div>
    </div>
    <div className='teacherProfile'>
-   <img src={teacher} alt="" />
+   <img src={tosan} alt="" />
      <div className='textAboutTeacher'>
-     <h4> Daring Diana</h4>
-      <p>Diana Samson is a 21year old devoted Christian and worshipper who finds it as a passion to teach and guide youths as well as teenagers according to the alignment of God.</p>
+     <h4>Tenacious Tosan</h4>
+      <p>Devoted and steadfast, Christian teen teacher Tenacious Tosan exemplifies faith in the classroom. Guiding with compassion, fostering growth, and embodying values of love and kindness.</p>
      </div>
    </div>
    <div className='teacherProfile'>
