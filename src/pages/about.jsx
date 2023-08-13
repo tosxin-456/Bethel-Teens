@@ -15,8 +15,11 @@ import 'swiper/css';
 import hands from '../assets/open hands.png'
 import 'swiper/css/effect-fade';
 import destine from '../assets/destine.png'
-import edehAndAda from '../assets/edeh and ada.jpg'
-import maavyon from '../assets/HomeMav.png'
+import vicTor from '../assets/victor.png'
+import Abah from '../assets/isaacAbah.png'
+import twins from '../assets/twins.png'
+import Peace from '../assets/AuntyPeaceandPeace.png'
+import isaacAndMiracle from '../assets/isaacAndMiracle.png'
 import account from '../assets/Account.png'
 import "mdb-react-ui-kit/dist/css/mdb.min.css"
 import {
@@ -33,17 +36,29 @@ const About = () => {
      id='kidImage'
      className='d-block'
      itemId={1}
-    src={maavyon} />
+    src={vicTor} />
     <MDBCarouselItem
     id='kidImage'
     className=' d-block'
     itemId={2}
-    src={edehAndAda} />
+    src={twins} />
     <MDBCarouselItem
     id='kidImage'
     className=' d-block'
     itemId={3}
-    src={destine} />
+    src={Abah} />
+    <MDBCarouselItem
+    id='kidImage'
+    className='d-block'
+    itemId={4}
+    src={isaacAndMiracle}
+    />
+       <MDBCarouselItem
+    id='kidImage'
+    className='d-block'
+    itemId={5}
+    src={Peace}
+    />
     </MDBCarousel>
     </div>
   <div className='welcomeRemark'>

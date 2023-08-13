@@ -16,6 +16,12 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import youtube from '../../assets/youtube.svg'
 import destine from '../../assets/destine.png'
+import soroti from '../../assets/soroti.png'
+import vicTor from '../../assets/victor.png'
+import Abah from '../../assets/isaacAbah.png'
+import twins from '../../assets/twins.png'
+import Peace from '../../assets/AuntyPeaceandPeace.png'
+
 import "mdb-react-ui-kit/dist/css/mdb.min.css"
 import {
   MDBCarousel,
@@ -42,7 +48,19 @@ const Home = () => {
     id='kidImage'
     className=' d-block'
     itemId={3}
-    src={destine} />
+    src={soroti} />
+    <MDBCarouselItem
+    id='kidImage'
+    className='d-block'
+    itemId={4}
+    src={destine}
+    />
+    <MDBCarouselItem
+      id='kidImage'
+      className='d-block'
+      itemId={5}
+      src={Peace}
+    />
     </MDBCarousel>
     </div>
       {/* <img src={kidsImage}  id='kidImage' alt="" /> */}
