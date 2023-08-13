@@ -21,6 +21,7 @@ import miracle from '../assets/miracle.png'
 import Abah from '../assets/isaacAbah.png'
 import twins from '../assets/twins.png'
 import tosan from'../assets/tosan.png'
+import ada from'../assets/ada.png'
 import destine2 from '../assets/destine2.png'
 import isaacAndMiracle from '../assets/isaacAndMiracle.png'
 import account from '../assets/Account.png'
@@ -117,6 +118,13 @@ const About = () => {
      <div className='textAboutTeacher'>
      <h4>Mirthful Miracle</h4>
       <p> Miracle, radiates infectious joy wherever she goes. Her presence seems to turn ordinary moments into extraordinary ones, leaving a trail of laughter and happiness behind.</p>
+     </div>
+   </div>
+   <div className='teacherProfile'>
+   <img src={ada} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Ambitious Ada</h4>
+      <p>Ambitious Ada is a force of determination. With unwavering focus and relentless drive, she sets her sights on lofty goals, breaking barriers and inspiring others with her unyielding pursuit of excellence.</p>
      </div>
    </div>
    <div className='teacherProfile'>
