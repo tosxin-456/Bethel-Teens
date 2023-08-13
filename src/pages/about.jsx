@@ -24,6 +24,7 @@ import Abah from '../assets/isaacAbah.png'
 import twins from '../assets/twins.png'
 import tosan from'../assets/tosan.png'
 import ada from'../assets/ada.png'
+import godwin from '../assets/Godwin.png'
 import destine2 from '../assets/destine2.png'
 import isaacAndMiracle from '../assets/isaacAndMiracle.png'
 import account from '../assets/Account.png'
@@ -113,6 +114,13 @@ const About = () => {
      <div className='textAboutTeacher'>
      <h4>Favoured Favour (Vice. President)</h4>
       <p>Favoured Favour, a spirited teen, radiates positivity and kindness. Empowering others with a contagious smile, she embraces challenges, spreading joy and inspiring those around her with her incredible resilience and empathy.</p>
+     </div>
+   </div>
+   <div className='teacherProfile'>
+   <img src={godwin} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Gentle Godwin</h4>
+      <p>Gentle Godwin embodies kindness and compassion. His soothing demeanor and considerate actions create a serene presence, bringing comfort and understanding to those around him.</p>
      </div>
    </div>
    <div className='teacherProfile'>
