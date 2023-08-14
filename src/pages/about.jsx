@@ -24,6 +24,7 @@ import Abah from '../assets/isaacAbah.png'
 import twins from '../assets/twins.png'
 import tosan from'../assets/tosan.png'
 import ada from'../assets/ada.png'
+import elsha from '../assets/elsha.png'
 import godwin from '../assets/Godwin.png'
 import destine2 from '../assets/destine2.png'
 import pedi from '../assets/pedi.png'
@@ -111,6 +112,13 @@ const About = () => {
     <h3>Teens</h3>
    <section>
   <div className='Teens'>
+  <div className='teacherProfile'>
+   <img src={elsha} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Emphatic Elshaddai</h4>
+      <p>Empathetic Elshaddaih possesses an incredible ability to connect with others on a deep emotional level. With genuine care and understanding, he provides comfort and solace, fostering a sense of belonging and support.</p>
+     </div>
+   </div>
   <div className='teacherProfile'>
    <img src={favouredFavor} alt="" />
      <div className='textAboutTeacher'>
