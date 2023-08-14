@@ -113,17 +113,17 @@ const About = () => {
    <section>
   <div className='Teens'>
   <div className='teacherProfile'>
-   <img src={elsha} alt="" />
-     <div className='textAboutTeacher'>
-     <h4>Emphatic Elshaddai</h4>
-      <p>Empathetic Elshaddaih possesses an incredible ability to connect with others on a deep emotional level. With genuine care and understanding, he provides comfort and solace, fostering a sense of belonging and support.</p>
-     </div>
-   </div>
-  <div className='teacherProfile'>
    <img src={favouredFavor} alt="" />
      <div className='textAboutTeacher'>
      <h4>Favoured Favour </h4>
       <p>Favoured Favour, a spirited teen, radiates positivity and kindness. Empowering others with a contagious smile, she embraces challenges, spreading joy and inspiring those around her with her incredible resilience and empathy.</p>
+     </div>
+   </div>
+   <div className='teacherProfile'>
+   <img src={elsha} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Emphatic Elshaddai</h4>
+      <p>Empathetic Elshaddaih possesses an incredible ability to connect with others on a deep emotional level. With genuine care and understanding, he provides comfort and solace, fostering a sense of belonging and support.</p>
      </div>
    </div>
    <div className='teacherProfile'>
