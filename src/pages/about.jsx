@@ -114,7 +114,7 @@ const About = () => {
   <div className='teacherProfile'>
    <img src={favouredFavor} alt="" />
      <div className='textAboutTeacher'>
-     <h4>Favoured Favour (Vice. President)</h4>
+     <h4>Favoured Favour </h4>
       <p>Favoured Favour, a spirited teen, radiates positivity and kindness. Empowering others with a contagious smile, she embraces challenges, spreading joy and inspiring those around her with her incredible resilience and empathy.</p>
      </div>
    </div>
@@ -177,7 +177,7 @@ const About = () => {
   <div className='teacherProfile'>
    <img src={emma} alt="" />
      <div className='textAboutTeacher'>
-     <h4>Extravagant Emma(Music direct.)</h4>
+     <h4>Extravagant Emma</h4>
       <p>Extravagant Emma, a spirited Christian teen, radiates faith through his exuberance. His vibrant devotion and compassionate heart inspire all to embrace love and grace..</p>
      </div>
    </div>
