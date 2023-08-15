@@ -29,7 +29,7 @@ import {
 } from 'mdb-react-ui-kit';
 
 
-const Home = () => {
+const Home = () => {    
   return (
     <>
     <div className='containerForImage'>
