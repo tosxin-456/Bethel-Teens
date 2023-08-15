@@ -63,7 +63,6 @@ const Home = () => {
     />
     </MDBCarousel>
     </div>
-      {/* <img src={kidsImage}  id='kidImage' alt="" /> */}
   <div className='welcomeRemark'>
     <h1>
       Bethel <br /> Teens Club
