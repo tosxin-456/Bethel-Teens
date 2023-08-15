@@ -97,7 +97,7 @@ const About = () => {
    <img src={tosan} alt="" />
      <div className='textAboutTeacher'>
      <h4>Tenacious Tosan</h4>
-      <p>Devoted and steadfast, Christian teen teacher Tenacious Tosan exemplifies faith in the classroom. Guiding with compassion, fostering growth, and embodying values of love and kindness.</p>
+      <p>Devoted and steadfast, Tenacious Tosan exemplifies faith with each class. Guiding with compassion, fostering growth, and embodying values of love and kindness.</p>
      </div>
    </div>
    <div className='teacherProfile'>
