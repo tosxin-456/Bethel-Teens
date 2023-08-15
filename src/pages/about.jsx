@@ -186,7 +186,7 @@ const About = () => {
    <img src={emma} alt="" />
      <div className='textAboutTeacher'>
      <h4>Extravagant Emma</h4>
-      <p>Extravagant Emma, a spirited Christian teen, radiates faith through his exuberance. His vibrant devotion and compassionate heart inspire all to embrace love and grace..</p>
+      <p>Extravagant Emmanuel embodies creativity and opulence. With an aura of elegance, he crafts art that transports souls to realms of lavish imagination, leaving an indelible mark.</p>
      </div>
    </div>
    <div className='teacherProfile'>
