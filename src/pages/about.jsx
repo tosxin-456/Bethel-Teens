@@ -29,6 +29,7 @@ import godwin from '../assets/Godwin.png'
 import destine2 from '../assets/destine2.png'
 import pedi from '../assets/pedi.png'
 import peret from '../assets/peret.png'
+import dora from '../assets/dora2.png'
 import isaacAndMiracle from '../assets/isaacAndMiracle.png'
 import account from '../assets/Account.png'
 import "mdb-react-ui-kit/dist/css/mdb.min.css"
@@ -194,6 +195,13 @@ const About = () => {
      <div className='textAboutTeacher'>
      <h4>Iconic Isaac</h4>
       <p>Iconic Isaac, a Christian teen, exemplifies unwavering faith, compassion, and leadership. His dedication to serving others shines through his actions, inspiring peers and making a positive impact.</p>
+     </div>
+   </div>
+   <div className='teacherProfile'>
+   <img src={dora} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Dynamic Dora</h4>
+      <p>Dynamic Dora embodies boundless energy and adaptability. Her vivacious nature and proactive approach make her a catalyst for positive change and innovation in every endeavor.</p>
      </div>
    </div>
   </div>
