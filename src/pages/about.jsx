@@ -29,7 +29,7 @@ import godwin from '../assets/Godwin.png'
 import destine2 from '../assets/destine2.png'
 import pedi from '../assets/pedi.png'
 import peret from '../assets/peret.png'
-import dora from '../assets/dora2.png'
+import dora from '../assets/dora.png'
 import isaacAndMiracle from '../assets/isaacAndMiracle.png'
 import account from '../assets/Account.png'
 import "mdb-react-ui-kit/dist/css/mdb.min.css"
