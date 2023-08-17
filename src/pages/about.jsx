@@ -129,6 +129,13 @@ const About = () => {
      </div>
    </div>
    <div className='teacherProfile'>
+   <img src={uche} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Understanding Uche</h4>
+      <p>Understanding Uche possesses empathy and insight. Her ability to comprehend emotions and perspectives fosters harmonious connections, making her a valuable confidante and friend.</p>
+     </div>
+   </div>
+   <div className='teacherProfile'>
    <img src={godwin} alt="" />
      <div className='textAboutTeacher'>
      <h4>Gentle Godwin</h4>
