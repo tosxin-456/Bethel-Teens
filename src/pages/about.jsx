@@ -32,6 +32,11 @@ import peret from '../assets/peret.png'
 import dora from '../assets/dora.png'
 import uche from '../assets/uche.png'
 import Unclgyang from '../assets/unclegyang.png'
+import yobi from '../assets/unclegyang.png'
+import Unclgyang from '../assets/unclegyang.png'
+import Unclgyang from '../assets/unclegyang.png'
+import Unclgyang from '../assets/unclegyang.png'
+
 import isaacAndMiracle from '../assets/isaacAndMiracle.png'
 import account from '../assets/Account.png'
 import "mdb-react-ui-kit/dist/css/mdb.min.css"
