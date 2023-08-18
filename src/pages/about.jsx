@@ -111,8 +111,8 @@ const About = () => {
    <div className='teacherProfile'>
    <img src={Auntylydia} alt="" />
      <div className='textAboutTeacher'>
-     <h4> Prosperous Peace</h4>
-      <p>Aunty Peace, gracefully imparts timeless wisdom with kindness, fostering harmony and unity, while guiding others to embrace love, compassion, and understanding in their lives.</p>
+     <h4>Laconic Lydia</h4>
+      <p>Laconic Lydia communicates with brevity and depth. Her succinct words carry profound significance, leaving a lasting impact and inspiring thoughtful reflection</p>
      </div>
    </div>
    <div className='teacherProfile'>
