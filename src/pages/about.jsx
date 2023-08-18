@@ -33,7 +33,7 @@ import dora from '../assets/dora.png'
 import uche from '../assets/uche.png'
 import Unclgyang from '../assets/unclegyang.png'
 import yobi from '../assets/yobi.png'
-import Auntylydia from '../assets/unclegyang.png'
+import Auntylydia from '../assets/aunty lydia.png'
 import ponjul from '../assets/unclegyang.png'
 import flourish from '../assets/unclegyang.png'
 
