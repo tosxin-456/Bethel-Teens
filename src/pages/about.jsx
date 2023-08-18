@@ -31,6 +31,7 @@ import pedi from '../assets/pedi.png'
 import peret from '../assets/peret.png'
 import dora from '../assets/dora.png'
 import uche from '../assets/uche.png'
+import Unclgyang from '../assets/unclegyang.png'
 import isaacAndMiracle from '../assets/isaacAndMiracle.png'
 import account from '../assets/Account.png'
 import "mdb-react-ui-kit/dist/css/mdb.min.css"
@@ -103,10 +104,10 @@ const About = () => {
      </div>
    </div>
    <div className='teacherProfile'>
-   <img src={teacher} alt="" />
+   <img src={Unclgyang} alt="" />
      <div className='textAboutTeacher'>
-      <h4> Daring Diana</h4>
-      <p>Diana Samson is a 21year old devoted Christian and worshipper who finds it as a passion to teach and guide youths as well as teenagers according to the alignment of God.</p>
+      <h4> Gainful Gyang</h4>
+      <p>Uncle  Gyang epitomizes dedication and wisdom. With a passion for education, he fosters a love for learning about God in teens, nurturing their growth into informed and empowered individuals."</p>
      </div>
    </div>
   </div>
@@ -222,6 +223,7 @@ const About = () => {
   <img src={hands} alt="" className='joinUsImg'  />
   <p>Embark on a transformative journey with our Christian team. Experience fellowship, spiritual growth, and impactful outreach as we unite in faith to make a positive difference in the world. Join us today!</p>
   </div>
+  
     </div>
     <div className='supportUs'>
     <h2>Support the Developers</h2>
