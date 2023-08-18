@@ -14,7 +14,7 @@ import favouredFavor from '../assets/favoured favour.png'
 import 'swiper/css';
 import hands from '../assets/open hands.png'
 import 'swiper/css/effect-fade';
-import destine from '../assets/destine.png'
+import faJ from '../assets/faj.png'
 import johnny from '../assets/johnny.png'
 import jonah from '../assets/jonathan.png'
 import michael from '../assets/michael.png'
@@ -120,6 +120,13 @@ const About = () => {
      <div className='textAboutTeacher'>
      <h4> Profound Ponjul</h4>
       <p>His aim for the teenagers is to guide their maturation within the teachings of the Lord Jesus Christ, fostering their growth as responsible, dependable individuals within society through dedicated instruction and strong principles.</p>
+     </div>
+   </div>
+   <div className='teacherProfile'>
+   <img src={faJ} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Fullfilled Fajulo</h4>
+      <p>Fulfilled Fajulo imparts knowledge with enthusiasm. Her dedication to education brings about transformation, nurturing young minds and fostering a brighter future.</p>
      </div>
    </div>
    <div className='teacherProfile'>
