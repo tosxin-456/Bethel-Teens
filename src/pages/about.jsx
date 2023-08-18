@@ -118,8 +118,8 @@ const About = () => {
    <div className='teacherProfile'>
    <img src={ponjul} alt="" />
      <div className='textAboutTeacher'>
-     <h4> Prosperous Peace</h4>
-      <p>Aunty Peace, gracefully imparts timeless wisdom with kindness, fostering harmony and unity, while guiding others to embrace love, compassion, and understanding in their lives.</p>
+     <h4> Profound Ponjul</h4>
+      <p>His aim for the teenagers is to guide their maturation within the teachings of the Lord Jesus Christ, fostering their growth as responsible, dependable individuals within society through dedicated instruction and strong principles.</p>
      </div>
    </div>
    <div className='teacherProfile'>
