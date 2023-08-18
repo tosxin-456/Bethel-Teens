@@ -102,6 +102,34 @@ const About = () => {
      </div>
    </div>
    <div className='teacherProfile'>
+   <img src={Unclgyang} alt="" />
+     <div className='textAboutTeacher'>
+      <h4> Gainful Gyang</h4>
+      <p>Uncle  Gyang epitomizes dedication and wisdom. With a passion for education, he fosters a love for learning about God in teens, nurturing their growth into informed and empowered individuals."</p>
+     </div>
+   </div>
+   <div className='teacherProfile'>
+   <img src={Auntylydia} alt="" />
+     <div className='textAboutTeacher'>
+     <h4> Prosperous Peace</h4>
+      <p>Aunty Peace, gracefully imparts timeless wisdom with kindness, fostering harmony and unity, while guiding others to embrace love, compassion, and understanding in their lives.</p>
+     </div>
+   </div>
+   <div className='teacherProfile'>
+   <img src={auntyPeace} alt="" />
+     <div className='textAboutTeacher'>
+     <h4> Prosperous Peace</h4>
+      <p>Aunty Peace, gracefully imparts timeless wisdom with kindness, fostering harmony and unity, while guiding others to embrace love, compassion, and understanding in their lives.</p>
+     </div>
+   </div>
+   <div className='teacherProfile'>
+   <img src={yobi} alt="" />
+     <div className='textAboutTeacher'>
+      <h4> Inimitable Iyobosa</h4>
+      <p>Inimitable Iyobosa radiates uniqueness and charisma. Her unparalleled presence and distinct qualities leave a lasting impression, setting her apart as an extraordinary individual.</p>
+     </div>
+   </div>
+   <div className='teacherProfile'>
    <img src={tosan} alt="" />
      <div className='textAboutTeacher'>
      <h4>Tenacious Tosan</h4>
@@ -109,10 +137,10 @@ const About = () => {
      </div>
    </div>
    <div className='teacherProfile'>
-   <img src={Unclgyang} alt="" />
+   <img src={flourish} alt="" />
      <div className='textAboutTeacher'>
-      <h4> Gainful Gyang</h4>
-      <p>Uncle  Gyang epitomizes dedication and wisdom. With a passion for education, he fosters a love for learning about God in teens, nurturing their growth into informed and empowered individuals."</p>
+     <h4> Prosperous Peace</h4>
+      <p>Aunty Peace, gracefully imparts timeless wisdom with kindness, fostering harmony and unity, while guiding others to embrace love, compassion, and understanding in their lives.</p>
      </div>
    </div>
   </div>
