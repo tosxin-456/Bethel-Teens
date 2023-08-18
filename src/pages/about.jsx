@@ -116,7 +116,7 @@ const About = () => {
      </div>
    </div>
    <div className='teacherProfile'>
-   <img src={auntyPeace} alt="" />
+   <img src={ponjul} alt="" />
      <div className='textAboutTeacher'>
      <h4> Prosperous Peace</h4>
       <p>Aunty Peace, gracefully imparts timeless wisdom with kindness, fostering harmony and unity, while guiding others to embrace love, compassion, and understanding in their lives.</p>
@@ -139,8 +139,8 @@ const About = () => {
    <div className='teacherProfile'>
    <img src={flourish} alt="" />
      <div className='textAboutTeacher'>
-     <h4> Prosperous Peace</h4>
-      <p>Aunty Peace, gracefully imparts timeless wisdom with kindness, fostering harmony and unity, while guiding others to embrace love, compassion, and understanding in their lives.</p>
+     <h4>Flourishing Flourish</h4>
+      <p>Flourishing Flourish is not just a name but a testament to a teacher's impact. With dedication, she nurtures minds, allowing them to bloom and thrive under her guidance..</p>
      </div>
    </div>
   </div>
