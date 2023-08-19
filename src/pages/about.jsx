@@ -39,6 +39,7 @@ import flourish from '../assets/flourish.png'
 import abah from '../assets/Abah.png'
 import isaacAndMiracle from '../assets/isaacAndMiracle.png'
 import account from '../assets/Account.png'
+import mavis from '../assets/maavis.png'
 import "mdb-react-ui-kit/dist/css/mdb.min.css"
 import {
   MDBCarousel,
@@ -181,6 +182,13 @@ const About = () => {
      <div className='textAboutTeacher'>
      <h4>Gentle Godwin</h4>
       <p>Gentle Godwin embodies kindness and compassion. His soothing demeanor and considerate actions create a serene presence, bringing comfort and understanding to those around him.</p>
+     </div>
+   </div>
+   <div className='teacherProfile'>
+   <img src={mavis} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Marvellous Ma'avyon</h4>
+      <p>Marvellous Ma'avyon is a true standout. Her exceptional abilities and charismatic persona create a magnetic aura, leaving a mark of wonder and inspiration wherever she goes</p>
      </div>
    </div>
    <div className='teacherProfile'>
