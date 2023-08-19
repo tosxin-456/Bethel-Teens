@@ -9,7 +9,7 @@ import instagram from '../assets/instagram.png'
 import aboutUsImg from '../assets/about us image.png'
 import youtube from '../assets/youtube.svg'
 import auntyPeace from '../assets/aunty Peace.png'
-import Iconincisaac from '../assets/isaac.svg'
+import Iconincisaac from '../assets/isaacAbah.png'
 import favouredFavor from '../assets/favoured favour.png'
 import 'swiper/css';
 import hands from '../assets/open hands.png'
@@ -36,7 +36,7 @@ import yobi from '../assets/yobi.png'
 import Auntylydia from '../assets/aunty lydia.png'
 import ponjul from '../assets/uncle ponjul.png'
 import flourish from '../assets/flourish.png'
-
+import abah from '../assets/Abah.png'
 import isaacAndMiracle from '../assets/isaacAndMiracle.png'
 import account from '../assets/Account.png'
 import "mdb-react-ui-kit/dist/css/mdb.min.css"
@@ -64,7 +64,7 @@ const About = () => {
     id='kidImage'
     className=' d-block'
     itemId={3}
-    src={Abah} />
+    src={abah} />
     <MDBCarouselItem
     id='kidImage'
     className='d-block'
