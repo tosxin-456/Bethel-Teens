@@ -31,6 +31,7 @@ import pedi from '../assets/pedi.png'
 import peret from '../assets/peret.png'
 import dora from '../assets/dora.png'
 import uche from '../assets/uche.png'
+import milcah from '../assets/milcah.png'
 import Unclgyang from '../assets/unclegyang.png'
 import yobi from '../assets/yobi.png'
 import Auntylydia from '../assets/aunty lydia.png'
@@ -189,6 +190,13 @@ const About = () => {
      <div className='textAboutTeacher'>
      <h4>Marvellous Ma'avyon</h4>
       <p>Marvellous Ma'avyon is a true standout. Her exceptional abilities and charismatic persona create a magnetic aura, leaving a mark of wonder and inspiration wherever she goes</p>
+     </div>
+   </div>
+   <div className='teacherProfile'>
+   <img src={milcah} alt="" />
+     <div className='textAboutTeacher'>
+     <h4>Meticulous Milcah</h4>
+      <p>Meticulous Milcah exemplifies precision and diligence. Her careful attention to detail ensures flawless outcomes, setting a standard of excellence and reliability in all endeavors.s</p>
      </div>
    </div>
    <div className='teacherProfile'>
