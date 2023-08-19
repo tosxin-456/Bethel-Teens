@@ -38,17 +38,17 @@ const Home = () => {
      id='kidImage'
      className='d-block'
      itemId={1}
-    src={edehAndAda} />
+    src={soroti} />
     <MDBCarouselItem
     id='kidImage'
     className=' d-block'
     itemId={2}
-    src={maavyon} />
+    src={edehAndAda} />
     <MDBCarouselItem
     id='kidImage'
     className=' d-block'
     itemId={3}
-    src={soroti} />
+    src={maavyon} />
     <MDBCarouselItem
     id='kidImage'
     className='d-block'
