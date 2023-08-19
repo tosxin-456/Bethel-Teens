@@ -133,10 +133,10 @@ const Home = () => {
     <input type="text" id='number' placeholder='Your Phone Number' />
     </div>
     <textarea id="multiline-input" rows="4" cols="50" className='message'  placeholder='Enter Your Message Here...'></textarea>
-   </form>
    <div className='btnDiv'>
-   <button id='btn'>Send message</button>
+   <button id='btn' type='submit'>Send message</button>
    </div>
+   </form>
    <footer className='footerNav'>
     <div>
     <div className='footerNameAndLogo'>
